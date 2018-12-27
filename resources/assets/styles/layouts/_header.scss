@@ -1,11 +1,53 @@
+.banner {
+  @apply shadow;
+}
+
 .banner .nav {
   @apply list-reset flex flex-wrap;
 }
 
 .banner .nav a {
-  @apply inline-block px-4 py-2 border-none;
+  @apply inline-block px-4 py-2 border-none text-grey-dark no-underline font-brand text-sm;
+}
 
-  &:hover {
-    color: darken(#525ddc, 30%);
-  }
+.banner .nav > .menu-item {
+  @apply relative flex items-center h-24 cursor-pointer;
+}
+
+.banner .nav > .menu-item:hover {
+  @apply bg-red;
+}
+
+.banner .nav > .menu-item > a {
+  @apply uppercase;
+}
+
+.banner .nav > .menu-item:hover > a {
+  @apply text-white;
+}
+
+.banner .nav .sub-menu {
+  box-shadow: 0 1px 4px 0 #8f8f8f;
+  top: 97px;
+
+  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose;
+}
+
+.banner .nav :last-child .sub-menu {
+  top: 97px;
+  left: auto;
+  right: 0;
+}
+
+.banner .nav > .menu-item:hover .sub-menu {
+  @apply flex;
+}
+
+.banner .nav .sub-menu a {
+  @apply text-sm;
+}
+
+.banner .nav .sub-menu .menu-item:hover,
+.banner .nav .sub-menu .menu-item:hover a {
+  @apply bg-red text-white;
 }

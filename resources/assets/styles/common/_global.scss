@@ -11,7 +11,7 @@ p {
   @apply mb-3 leading-normal;
 }
 
-a {
+.content a {
   @apply text-primary no-underline border-b border-transparent;
 
   transition: 0.2s ease;
