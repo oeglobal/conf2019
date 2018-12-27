@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="143px" viewBox="0 0 142 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/welcome</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Elements" transform="translate(-521.000000, -1166.000000)">
+            <g id="icons/welcome" transform="translate(520.000000, 1165.000000)">
+                <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+                </g>
+                <g stroke-width="1" fill-rule="evenodd" transform="translate(12.000000, 21.000000)" id="Group-17">
+                    <g>
+                        <path d="M42.5,46 C43.3285868,46 44,46.6543327 44,47.4610551 L44,63.5389449 C44,64.3456673 43.3285868,65 42.5,65 C41.6722192,65 41,64.3456673 41,63.5389449 L41,47.4610551 C41,46.6543327 41.6722192,46 42.5,46" id="Fill-1" fill="#FFDD00"></path>
+                        <path d="M76.5004031,46 C77.3284063,46 78,46.6543327 78,47.4610551 L78,63.5389449 C78,64.3456673 77.3284063,65 76.5004031,65 C75.6715937,65 75,64.3456673 75,63.5389449 L75,47.4610551 C75,46.6543327 75.6715937,46 76.5004031,46" id="Fill-3" fill="#FFDD00"></path>
+                        <path d="M25,65 L25,17.2548042 C25,14.9052542 26.901435,13 29.2462752,13 L89.7529358,13 C92.098565,13 94,14.9052542 94,17.2548042 L94,27.1218073" id="Stroke-5" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M94,46 L94,98.4268871 C94,99.8879796 94.2441427,101.652491 93.079,102 M26,101.333229 C24.7494352,100.833267 25,99.7894153 25,98.2462228 L25,83" id="Shape" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M29.0890722,0.564655588 C22.4504991,4.56279605 16.6491669,9.80980244 12.0102851,15.9804652 M25.5552003,101.134173 C35.3037517,107.98089 47.1825191,112 60,112 C72.5135674,112 84.132409,108.169224 93.7477832,101.616412" id="Shape" stroke="#0069B4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                        <path d="M26.2963422,15 C34.8644873,19.902705 43.4318548,24.8061969 52,29.708902 L52,83.057194 C42.9994816,89.3714627 33.9997408,95.6857313 25,102" id="Stroke-9" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M91.0200467,15 C82.6795127,19.90532 74.3397563,24.8114267 66,29.7175334 L66,83.0600364 L93,102" id="Stroke-11" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

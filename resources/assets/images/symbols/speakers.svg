@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/speakers</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Elements" transform="translate(-519.000000, -2177.000000)">
+            <g id="icons/speakers" transform="translate(518.000000, 2176.000000)">
+                <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <circle id="Oval" cx="72" cy="72" r="69"></circle>
+                </g>
+                <g stroke-width="1" fill-rule="evenodd" transform="translate(39.000000, 16.000000)" id="Group-4">
+                    <g fill-rule="nonzero">
+                        <path d="M27.5,127 L27.5,89 M39.5,89 L39.5,127" id="Shape" stroke="#0069B4" stroke-width="2" fill="#FFFFFF"></path>
+                        <g id="Group-6" transform="translate(37.000000, 0.000000)">
+                            <path d="M18.571429,76.9984045 C17.4377867,78.305274 16.1948393,79.511659 14.8571429,80.6027489 L14.8571429,33.3972511 C16.1948393,34.488341 17.4377867,35.694726 18.571429,37.0015955 L18.5714286,76.9984071 L18.571429,76.9984045 Z M22.2857143,71.6483571 L22.2857143,42.3516429 C24.6523195,46.6911531 26,51.6854405 26,57 C26,62.3145595 24.6523195,67.3088469 22.2857143,71.6483571 Z M11.1428571,83.1891523 C9.95434933,83.8886898 8.71380241,84.5068734 7.42857143,85.0362194 L7.42857143,28.9637806 C8.71380241,29.4931266 9.95434933,30.1113102 11.1428571,30.8108477 L11.1428571,83.1891523 Z M3.71428571,86.2814109 C2.50429997,86.5982858 1.26448697,86.8395633 0,87 L0,27 C1.26448697,27.1604367 2.50429997,27.4017142 3.71428571,27.7185891 L3.71428571,86.2814109 Z" id="icons/conferences" fill="#FFDD00"></path>
+                            <path d="M37.6042035,33.0445673 C33.2181374,25.4435534 26.808897,19.1569471 19.112285,14.9205508" id="Path" stroke="#231F20" stroke-width="4" stroke-linejoin="round"></path>
+                            <path d="M52.8277034,37.6979132 C46.9509342,20.3905614 33.3896302,6.63258506 16.207802,0.48799483" id="Path" stroke="#231F20" stroke-width="4" stroke-linejoin="round"></path>
+                        </g>
+                        <path d="M33,24 C14.7746033,24 0,38.7746033 0,57 C0,75.2253967 14.7746033,90 33,90 C51.2253967,90 66,75.2253967 66,57" id="Path" stroke="#0069B4" stroke-width="4" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,49 @@
+@mixin symbol-icon($x1, $y1) {
+  #icon {
+    filter: none;
+    transform: translate($x1, $y1);
+  }
+
+  &:hover {
+    #icon {
+      filter: url(#filter-1);
+      transform: translate($x1, $y1 - 8px);
+    }
+  }
+}
+
+.cfp-active {
+  @include symbol-icon(11px, 41px);
+}
+
+.hotel-active {
+  @include symbol-icon(20px, 43px);
+}
+
+.milan-active {
+  @include symbol-icon(29px, 22px);
+}
+
+.question-active {
+  @include symbol-icon(43px, 24px);
+}
+
+.registration-active {
+  @include symbol-icon(38px, 24px);
+}
+
+.speakers-active {
+  @include symbol-icon(39px, 16px);
+}
+
+.travel-active {
+  @include symbol-icon(33px, 32px);
+}
+
+.venue-active {
+  @include symbol-icon(44px, 34px);
+}
+
+.welcome-active {
+  @include symbol-icon(12px, 21px);
+}

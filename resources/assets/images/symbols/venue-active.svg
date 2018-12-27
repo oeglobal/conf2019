@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="153px" viewBox="0 0 152 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/venue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.7%" y="-23.9%" width="156.0%" height="146.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="UI-Elements" transform="translate(-278.000000, -1158.000000)" stroke-width="4">
+            <g id="icons/venue" transform="translate(277.000000, 1157.000000)">
+                <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round">
+                    <ellipse id="Oval" cx="77" cy="77.5" rx="73.7916667" ry="74.2708333"></ellipse>
+                </g>
+                <g id="icon" filter="url(#filter-1)" transform="translate(44.000000, 26.000000)">
+                    <path d="" id="Stroke-1" stroke="#0069B5" stroke-linecap="round"></path>
+                    <path d="M57,55.9939206 L32.6049449,91 L8.16729497,55.9406377 C-1.08053461,43.6902729 0.23990779,23.5736287 10.9998569,12.8841394 C16.7730456,7.15544447 24.4432857,4 32.6049449,4 C40.759505,4 48.4360555,7.15544447 54.2029338,12.8841394" id="Stroke-2" stroke="#0069B5"></path>
+                    <path d="M24,34.0004402 C24,31.6967532 24.8787167,29.3930662 26.6361502,27.6355658 C30.1510172,24.1213477 35.8497653,24.1213477 39.3638498,27.6363483 C42.8787167,31.1505665 42.8787167,36.8495313 39.3638498,40.364532 C37.6228482,42.1048173 35.3458529,42.9835675 33.0649452,43" id="Stroke-4" stroke="#FFDD00" stroke-linecap="square"></path>
+                    <path d="M63,0 C69.0738747,3.43460892 73.2003633,8.89481707 75,15" id="Stroke-6" stroke="#000000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

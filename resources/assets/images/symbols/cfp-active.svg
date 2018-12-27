@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="143px" viewBox="0 0 142 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/call-for-proposals</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-18.2%" y="-33.9%" width="134.7%" height="167.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="UI-Elements" transform="translate(-276.000000, -1930.000000)" stroke-width="4">
+            <g id="icons/call-for-proposals-active" transform="translate(275.000000, 1929.000000)">
+                <g id="icons/call-for-proposals">
+                    <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round">
+                        <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+                    </g>
+                    <g id="icon" filter="url(#filter-1)" transform="translate(11.000000, 32.000000)">
+                        <g id="Group-7" transform="translate(0.000000, 2.000000)" stroke="#0069B5">
+                            <path d="M49.547655,48 C33.0314742,43.6419181 16.5161808,39.2838361 0,34.9257542 L0,22.1648573 C28.0002958,14.7771535 55.9997042,7.38857673 84,0" id="Stroke-1"></path>
+                            <path d="M71,28.5 C71,44.2401847 76.5961663,57 83.5,57 C90.4038337,57 96,44.2401847 96,28.5 C96,12.7598153 90.4038337,0 83.5,0 C76.5961663,0 71,12.7598153 71,28.5 Z" id="Stroke-3"></path>
+                            <path d="M10.564,19 L10.436,28" id="Stroke-5"></path>
+                        </g>
+                        <path d="M106.5,31 L120.304687,31" id="Line-3" stroke="#231F20" fill-rule="nonzero"></path>
+                        <path d="M99.4794172,4.79882812 L113.284105,4.79882812" id="Line-3" stroke="#FFDD00" fill-rule="nonzero" transform="translate(106.381761, 4.798828) rotate(-30.000000) translate(-106.381761, -4.798828) "></path>
+                        <path d="M99.4794172,57.2011719 L113.284105,57.2011719" id="Line-3" stroke="#FFDD00" fill-rule="nonzero" transform="translate(106.381761, 57.201172) rotate(-330.000000) translate(-106.381761, -57.201172) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

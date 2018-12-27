@@ -1,0 +1,11 @@
+body {
+  background:
+    url("../images/bg-left-sm.svg") left top repeat-y,
+    url("../images/bg-right-sm.svg") right top repeat-y;
+
+  @screen md {
+    background:
+      url("../images/bg-left.svg") left top repeat-y,
+      url("../images/bg-right.svg") right top repeat-y;
+  }
+}
