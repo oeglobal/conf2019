@@ -1,5 +1,5 @@
 .banner {
-  @apply shadow;
+  @apply shadow bg-white;
 }
 
 .banner .nav {
@@ -14,6 +14,7 @@
   @apply relative flex items-center h-24 cursor-pointer;
 }
 
+.banner .nav > .menu-item.is-active,
 .banner .nav > .menu-item:hover {
   @apply bg-red;
 }
@@ -22,6 +23,7 @@
   @apply uppercase;
 }
 
+.banner .nav > .menu-item.is-active > a,
 .banner .nav > .menu-item:hover > a {
   @apply text-white;
 }
@@ -39,7 +41,7 @@
   right: 0;
 }
 
-.banner .nav > .menu-item:hover .sub-menu {
+.banner .nav > .menu-item.is-active .sub-menu {
   @apply flex;
 }
 
@@ -50,4 +52,44 @@
 .banner .nav .sub-menu .menu-item:hover,
 .banner .nav .sub-menu .menu-item:hover a {
   @apply bg-red text-white;
+}
+
+.menu-open .toggle-menu svg {
+  #background {
+    fill: $red;
+  }
+
+  #menu---material {
+    fill: #fff;
+  }
+}
+
+.menu-open .nav-primary {
+  top: 64px;
+  left: 0;
+  right: 0;
+  box-shadow: 0 1px 4px 0 #8f8f8f;
+
+  @apply block absolute bg-white px-0 ;
+
+  .menu-item {
+    @apply w-full h-auto flex-col items-start;
+  }
+
+  .menu-item > a {
+    line-height: 30px;
+
+    @apply h-10;
+  }
+
+  .menu-item.is-active .sub-menu {
+    top: auto;
+    position: unset;
+
+    @apply flex w-full pl-4 shadow-none;
+  }
+
+  .menu-item.is-active .sub-menu .menu-item {
+    @apply w-full border-b;
+  }
 }

@@ -1,11 +1,20 @@
 <header class="banner">
-  <div class="container flex items-center justify-between h-24">
-    <a class="brand font-brand" href="{{ home_url('/') }}">{{ get_bloginfo('name', 'display') }}</a>
-    <nav class="nav-primary">
+  <div class="container flex items-center justify-between
+              sm-only:pr-0
+              h-16 md:h-24">
+    <a class="brand flex" href="{{ home_url('/') }}" alt="Home">
+      @svg('logo-mobile', 'md:hidden')
+      @svg('logo', 'hidden md:block h-16 w-auto pl-2')
+    </a>
+    <nav role="navigation"
+         class="nav-primary
+                hidden md:block">
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation',
                          'menu_class' => 'nav nav-dropdown list-reset']) !!}
       @endif
     </nav>
+    <button class="js-toggle-menu toggle-menu flex md:hidden self-start">@svg('menu', 'menu')</button>
   </div>
 </header>
+l

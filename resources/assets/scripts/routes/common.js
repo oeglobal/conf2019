@@ -1,3 +1,5 @@
+import hoverintent from 'hoverintent/dist/hoverintent.min';
+
 export default {
   loadGoogleFonts() {
     window.WebFontConfig = {
@@ -13,11 +15,43 @@ export default {
 
   },
 
-  init() {
-    // JavaScript to be fired on all pages
+  dropDown() {
+    $('.nav-dropdown .menu-item').each(function () {
+
+      hoverintent(this,
+        () => {
+          $(this).addClass('is-active');
+        },
+        () => {
+          $(this).removeClass('is-active');
+        }).options({
+          timeout: 500,
+          handleFocus: true,
+      });
+
+      $(this).on('click', function() {
+        $(this).toggleClass('is-active');
+      });
+    });
   },
+
+  mobileMenu() {
+    $('body').toggleClass('menu-open');
+
+    $('.js-toggle-menu').on('click', () => {
+      $('body').toggleClass('menu-open');
+    });
+  },
+
+  init() {
+    this.loadGoogleFonts();
+    this.dropDown();
+    this.mobileMenu();
+  }
+  ,
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
-  },
+  }
+  ,
 };
 

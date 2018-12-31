@@ -23,6 +23,8 @@ add_filter( 'body_class', function ( array $classes ) {
         return preg_replace( [ '/-blade(-php)?$/', '/^page-template-views/' ], '', $class );
     }, $classes );
 
+    $classes[] = 'antialiased';
+
     return array_filter( $classes );
 } );
 
