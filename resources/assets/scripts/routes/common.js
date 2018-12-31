@@ -36,8 +36,6 @@ export default {
   },
 
   mobileMenu() {
-    $('body').toggleClass('menu-open');
-
     $('.js-toggle-menu').on('click', () => {
       $('body').toggleClass('menu-open');
     });

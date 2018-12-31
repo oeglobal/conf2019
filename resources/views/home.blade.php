@@ -1,5 +1,26 @@
 @extends('layouts.app')
 
+@section('hero')
+  <div class="hero flex items-center justify-center">
+    <div class="text-white hero-text text-center">
+      <h1>Open Future <br/>for an Open Education</h1>
+      <div class="tagline">Resources, Practices, Communities</div>
+
+      <div class="name">Open Education Global Conference</div>
+      <div class="location-date flex justify-between flex-col md:flex-row">
+        <span class="block md:inline mb-4 md:mb-0">
+          <span class="block md:inline">@svg('icon-pin')</span>
+          <span class="block md:inline">Politecnico di Milano</span>
+        </span>
+        <span class="block md:inline">
+          @svg('icon-calendar')
+          <span>26-28 November 2019</span>
+        </span>
+      </div>
+    </div>
+  </div>
+@endsection
+
 @section('content')
   <div class="h-64">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae

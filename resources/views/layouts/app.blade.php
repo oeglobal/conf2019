@@ -4,6 +4,9 @@
   <body @php body_class() @endphp>
     @php do_action('get_header') @endphp
     @include('partials.header')
+
+    @yield('hero')
+
     <div class="wrap container" role="document">
       <div class="content">
         <main class="main">

@@ -17,4 +17,3 @@
     <button class="js-toggle-menu toggle-menu flex md:hidden self-start">@svg('menu', 'menu')</button>
   </div>
 </header>
-l
