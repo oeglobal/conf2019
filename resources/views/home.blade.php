@@ -13,8 +13,8 @@
           <span class="block md:inline">Politecnico di Milano</span>
         </span>
         <span class="block md:inline">
-          @svg('icon-calendar')
-          <span>26-28 November 2019</span>
+          <span class="block md:inline">@svg('icon-calendar')</span>
+          <span class="block md:inline">26-28 November 2019</span>
         </span>
       </div>
     </div>
