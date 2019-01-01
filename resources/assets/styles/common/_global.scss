@@ -43,3 +43,15 @@ p {
     }
   }
 }
+
+.panel p {
+  @apply text-sm;
+
+  @screen md {
+    @apply text-base;
+  }
+
+  &:last-of-type {
+    @apply mb-6;
+  }
+}
