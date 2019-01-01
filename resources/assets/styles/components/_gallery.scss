@@ -1,0 +1,20 @@
+.lg-sub-html a {
+  color: $white;
+}
+
+#lightgallery {
+  white-space: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /* Chrome Canary */
+  scroll-snap-type: mandatory; /* Firefox */
+  -ms-scroll-snap-type: mandatory; /* IE/Edge */
+  -webkit-scroll-snap-type: mandatory; /* Safari */
+  -webkit-scroll-snap-destination: 0% 0%;
+  -webkit-overflow-scrolling: touch; /* important for iOS */
+}
+
+.gallery-item {
+  scroll-snap-align: start; /* latest (Chrome 69+) */
+  scroll-snap-coordinate: 0% 0%; /* older (Firefox/IE) */
+  -webkit-scroll-snap-coordinate: 0% 0%; /* older (Safari) */
+}

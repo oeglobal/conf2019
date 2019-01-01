@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c35549176564274d1d3587ea11308340",
+    "content-hash": "fc2452cd10d97ee02605fa0f087c7b64",
     "packages": [
         {
             "name": "brain/hierarchy",
@@ -629,6 +629,50 @@
                 "wordpress"
             ],
             "time": "2018-11-28T10:56:18+00:00"
+        },
+        {
+            "name": "log1x/sage-directives",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Log1x/sage-directives.git",
+                "reference": "102466e455180e37940be668ad4a9060e62331fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Log1x/sage-directives/zipball/102466e455180e37940be668ad4a9060e62331fb",
+                "reference": "102466e455180e37940be668ad4a9060e62331fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "package",
+            "autoload": {
+                "files": [
+                    "src/Directives.php",
+                    "src/Utilities.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Nifong",
+                    "email": "brandon@tendency.me"
+                }
+            ],
+            "description": "A set of Blade directives for use with Roots Sage.",
+            "homepage": "https://github.com/log1x/sage-directives",
+            "keywords": [
+                "blade",
+                "roots",
+                "sage",
+                "wordpress"
+            ],
+            "time": "2018-12-08T01:20:48+00:00"
         },
         {
             "name": "nesbot/carbon",

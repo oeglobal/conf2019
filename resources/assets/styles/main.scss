@@ -24,6 +24,7 @@
  * @see https://github.com/webpack-contrib/sass-loader#imports
  */
 // @import "~some-node-module";
+@import "~lightgallery/dist/css/lightgallery.min.css";
 
 /**
  * This injects any component classes registered by Tailwind plugins.
@@ -43,6 +44,7 @@
 @import "components/forms";
 @import "components/wp-classes";
 @import "components/home";
+@import "components/gallery";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";

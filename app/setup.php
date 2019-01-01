@@ -70,6 +70,14 @@ add_action('after_setup_theme', function () {
      * @see resources/assets/styles/layouts/_tinymce.scss
      */
     add_editor_style(asset_path('styles/main.css'));
+
+    acf_add_options_page(array(
+        'page_title' 	=> 'Home page',
+        'menu_title'	=> 'Home page',
+        'menu_slug' 	=> 'homepage--settings',
+        'capability'	=> 'edit_posts',
+        'redirect'		=> false
+    ));
 }, 20);
 
 /**

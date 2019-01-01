@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('hero')
-  @component('partials.hero')
-  @endcomponent
+  @include('partials.hero')
 @endsection
 
 @section('content')
@@ -62,7 +61,7 @@
   @endcomponent
 
   @component('components.panel', [
-    'title' => 'About',
+    'title' => 'The Venue',
     'svg' => 'symbols/venue',
     'image_classes' => 'text-right',
     'link' => '#'
@@ -73,4 +72,8 @@
       policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
       advances educational practices around the world.</p>
   @endcomponent
+
+  @include('partials.gallery')
+
+  <div class="h-64"></div>
 @endsection
