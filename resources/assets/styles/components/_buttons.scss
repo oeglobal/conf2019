@@ -1,5 +1,12 @@
 .btn {
-  @apply bg-primary rounded my-3 px-4 py-3 text-white leading-none;
+  @apply bg-red my-3 px-4 pt-4 pb-3 text-white leading-none no-underline uppercase font-brand font-bold;
 
+  text-shadow: none;
   transition: 0.2s ease;
+
+  &:hover,
+  &:focus,
+  &:active {
+    @apply bg-red-light;
+  }
 }

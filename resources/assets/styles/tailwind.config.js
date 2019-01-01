@@ -62,7 +62,7 @@ let colors = {
   'red-darker': '#621b18',
   'red-dark': '#cc1f1a',
   'red': '#ee3e24',
-  'red-light': '#ef5753',
+  'red-light': '#f16550',
   'red-lighter': '#f9acaa',
   'red-lightest': '#fcebea',
 
@@ -697,6 +697,7 @@ module.exports = {
     '8': '2rem',
     '10': '2.5rem',
     '12': '3rem',
+    '14': '3.5rem',
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
