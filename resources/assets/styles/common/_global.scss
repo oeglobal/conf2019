@@ -21,8 +21,12 @@ p {
   //}
 }
 
-.heading-lg {
-  @apply relative font-brand text-3xl uppercase pb-8 mb-16;
+.heading {
+  @apply relative font-brand text-2xl uppercase pb-6 mb-8;
+
+  @screen md {
+    @apply pb-8 mb-16 text-3xl;
+  }
 
   &::after {
     content: "";
@@ -30,8 +34,12 @@ p {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 16px;
+    height: 8px;
     width: calc(100% - 21px);
     background-color: $red;
+
+    @screen md {
+      height: 8px;
+    }
   }
 }
