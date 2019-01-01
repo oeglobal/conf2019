@@ -71,7 +71,7 @@
   <h2 class="heading-lg w-2/3 md:w-1/3">About</h2>
   <div class="flex flex-wrap -mx-4 overflow-hidden mb-26">
     <div class="my-2 px-4 w-1/3 overflow-hidden text-center hidden md:block">
-      @svg('logo')
+      @svg('logo', 'max-w-full')
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden">
