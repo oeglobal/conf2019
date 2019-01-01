@@ -1,10 +1,10 @@
 @mixin symbol-icon($x1, $y1) {
-  #icon {
+  svg #icon {
     filter: none;
     transform: translate($x1, $y1);
   }
 
-  &:hover {
+  &:hover svg {
     #icon {
       filter: url(#filter-1);
       transform: translate($x1, $y1 - 8px);
@@ -46,4 +46,17 @@
 
 .welcome-active {
   @include symbol-icon(12px, 21px);
+}
+
+.symbol {
+  @apply no-underline;
+}
+
+.symbol-label {
+  @apply text-sm font-brand uppercase text-grey-dark mt-4 block;
+}
+
+.symbol-sm svg {
+  width: 73px;
+  height: 73px;
 }

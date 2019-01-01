@@ -26,65 +26,77 @@
 @endsection
 
 @section('content')
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
+  <div class="justify-around mb-10 hidden md:flex">
+    @component('components.symbol', [
+      'svg' => 'welcome-active',
+      'text' => 'Welcome',
+      'size' => 'sm',
+      'class' => 'w-32',
+    ])
+    @endcomponent
 
+    @component('components.symbol', [
+      'svg' => 'venue-active',
+      'text' => 'The Venue',
+      'size' => 'sm',
+      'class' => 'w-32',
+    ])
+    @endcomponent
 
-    <div class="block"></div>
+    @component('components.symbol', [
+      'svg' => 'cfp-active',
+      'text' => 'Call for Proposals',
+      'size' => 'sm',
+      'class' => 'w-32',
+    ])
+    @endcomponent
 
+    @component('components.symbol', [
+    'svg' => 'milan-active',
+    'text' => 'About Milan',
+    'size' => 'sm',
+    'class' => 'w-32',
+    ])
+    @endcomponent
 
-    <a class='inline-block' href="#">@svg('symbols/cfp-active', 'cfp-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/cfp', 'cfp')</a>
-    <a class='inline-block' href="#">@svg('symbols/hotel-active', 'hotel-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/hotel', 'hotel')</a>
-    <a class='inline-block' href="#">@svg('symbols/milan-active', 'milan-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/milan', 'milan')</a>
-    <a class='inline-block' href="#">@svg('symbols/question-active', 'question-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/question', 'question')</a>
-    <a class='inline-block' href="#">@svg('symbols/registration-active', 'registration-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/registration', 'registration')</a>
-    <a class='inline-block' href="#">@svg('symbols/speakers-active', 'speakers-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/speakers', 'speakers')</a>
-    <a class='inline-block' href="#">@svg('symbols/travel-active', 'travel-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/travel', 'travel')</a>
-    <div class="block"></div>
-    <a class='inline-block' href="#">@svg('symbols/venue-active', 'venue-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/venue', 'venue')</a>
-    <a class='inline-block' href="#">@svg('symbols/welcome-active', 'welcome-active')</a>
-    <a class='inline-block' href="#">@svg('symbols/welcome', 'welcome')</a>
+    @component('components.symbol', [
+    'svg' => 'travel-active',
+    'text' => 'Plan your Travel',
+    'size' => 'sm',
+    'class' => 'w-32',
+    ])
+    @endcomponent
+  </div>
 
+  <h2 class="heading-lg w-2/3 md:w-1/3">About</h2>
+  <div class="flex flex-wrap -mx-4 overflow-hidden mb-26">
+    <div class="my-2 px-4 w-1/3 overflow-hidden text-center hidden md:block">
+      @svg('logo')
+    </div>
+
+    <div class="my-2 px-4 md:w-7/12 overflow-hidden">
+      <p class="mb-6">The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
+        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
+        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
+        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
+        advances educational practices around the world.</p>
+      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+    </div>
   </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
-  </div>
-  <div class="h-64">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias amet doloribus earum est et iusto nobis quae
-    sequi vel! Doloribus, nam, qui? Aperiam cum dolorum ex expedita, sapiente veritatis!
+
+  <h2 class="heading-lg w-2/3 md:w-1/3">The Venue</h2>
+  <div class="flex flex-wrap -mx-4 overflow-hidden mb-26">
+    <div class="my-2 px-4 w-1/3 overflow-hidden text-right hidden md:block">
+      @svg('symbols/venue')
+    </div>
+
+    <div class="my-2 px-4 md:w-7/12 overflow-hidden">
+      <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
+        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
+        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
+        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
+        advances educational practices around the world.</p>
+      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+    </div>
   </div>
 @endsection

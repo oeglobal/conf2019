@@ -32,7 +32,7 @@
   box-shadow: 0 1px 4px 0 #8f8f8f;
   top: 97px;
 
-  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose;
+  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose z-10;
 }
 
 .banner .nav :last-child .sub-menu {
@@ -69,6 +69,7 @@
   left: 0;
   right: 0;
   box-shadow: 0 1px 4px 0 #8f8f8f;
+  z-index: 10;
 
   @apply block absolute bg-white px-0 ;
 

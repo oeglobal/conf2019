@@ -11,12 +11,27 @@ p {
   @apply mb-3 leading-normal;
 }
 
-.content a {
+.content p a {
   @apply text-primary no-underline border-b border-transparent;
 
   transition: 0.2s ease;
 
-  &:hover {
-    @apply border-primary;
+  //&:hover {
+  //  @apply border-primary;
+  //}
+}
+
+.heading-lg {
+  @apply relative font-brand text-3xl uppercase pb-8 mb-16;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 16px;
+    width: calc(100% - 21px);
+    background-color: $red;
   }
 }

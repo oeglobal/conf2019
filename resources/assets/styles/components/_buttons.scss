@@ -10,3 +10,19 @@
     @apply bg-red-light;
   }
 }
+
+.btn-inverse {
+  @apply font-bold font-brand text-red no-underline uppercase px-1 pt-1 inline-block;
+
+  font-size: 13px;
+
+  &:hover,
+  &:focus,
+  &:active {
+    @apply bg-red text-white;
+
+    #link {
+      fill: $white;
+    }
+  }
+}
