@@ -55,3 +55,11 @@ p {
     @apply mb-6;
   }
 }
+
+footer {
+  background: $red url('../images/bg-footer.jpg') repeat-x bottom;
+
+  @screen md {
+    height: 374px;
+  }
+}

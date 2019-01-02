@@ -1,4 +1,4 @@
-<div id="lightgallery" class="block md:flex md:flex-wrap">
+<div id="lightgallery" class="block mb-32 md:flex md:flex-wrap">
   @foreach ($get_gallery as $image)
     <a
       href="{!! $image['image']['url'] !!}"
