@@ -1,2 +1,7 @@
-@php the_content() @endphp
-{!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+@component('components.panel-content', [
+    'svg' => 'symbols/venue',
+    'image_classes' => 'text-right h-28',
+    'svg_classes' => 'h-full w-auto'
+])
+  @php the_content() @endphp
+@endcomponent

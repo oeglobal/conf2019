@@ -1,3 +1,3 @@
-<div class="page-header">
-  <h1>{!! App::title() !!}</h1>
-</div>
+@include('components.panel-heading', ['title' => App::title(),
+                                      'classes' => 'mt-18'
+                                      ])
