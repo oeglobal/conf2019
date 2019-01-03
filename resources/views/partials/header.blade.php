@@ -9,6 +9,9 @@
     <nav role="navigation"
          class="nav-primary
                 hidden md:block">
+      {{-- menu-item menu-item-type-post_type
+           menu-item-object-page menu-item-has-children
+           sub-menu menu-open menu---material --}}
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation',
                          'menu_class' => 'nav nav-dropdown list-reset']) !!}

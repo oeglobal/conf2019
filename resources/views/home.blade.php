@@ -51,6 +51,7 @@
     'title' => 'About',
     'svg' => 'logo',
     'image_classes' => 'text-center',
+    'svg_classes' => 'max-w-full',
     'link' => '#'
   ])
     <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
@@ -64,6 +65,7 @@
     'title' => 'The Venue',
     'svg' => 'symbols/venue',
     'image_classes' => 'text-right',
+    'svg_classes' => 'max-w-full w-32',
     'link' => '#'
   ])
     <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve

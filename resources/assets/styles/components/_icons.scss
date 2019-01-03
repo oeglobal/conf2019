@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 @mixin symbol-icon($x1, $y1) {
   svg #icon {
     filter: none;
@@ -60,3 +61,5 @@
   width: 73px;
   height: 73px;
 }
+
+/* purgecss end ignore */

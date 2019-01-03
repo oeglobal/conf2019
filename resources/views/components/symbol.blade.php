@@ -1,3 +1,4 @@
+{{-- symbol-sm --}}
 <a class="inline-block symbol text-center {!! $svg !!} {!! 'symbol-' . $size !!} {!! $class !!}" href="#">
   @svg("symbols/$svg")
 
