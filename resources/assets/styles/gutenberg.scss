@@ -1,7 +1,8 @@
 @tailwind preflight;
+
+@import "common/variables";
+
 @tailwind components;
 @tailwind utilities;
 
-b {
-  color: red;
-}
+@import "components/blocks";
