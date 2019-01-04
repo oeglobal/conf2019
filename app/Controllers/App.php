@@ -6,7 +6,7 @@ use Sober\Controller\Controller;
 
 class App extends Controller
 {
-    protected $acf = true;
+    protected $acf = false;
 
     public function siteName()
     {

@@ -489,6 +489,7 @@ module.exports = {
     '16': '4rem',
     '24': '6rem',
     '32': '8rem',
+    '38': '9.5rem',
     '48': '12rem',
     '64': '16rem',
     '1/2': '50%',
@@ -539,6 +540,8 @@ module.exports = {
     '24': '6rem',
     '28': '7rem',
     '32': '8rem',
+    '36': '9rem',
+    '38': '9.5rem',
     '48': '12rem',
     '64': '16rem',
     'full': '100%',
@@ -945,6 +948,21 @@ module.exports = {
     require('tailwindcss/plugins/container')({
       center: true,
       padding: '1rem',
+    }),
+
+    require('tailwindcss-grid')({
+      grids: [2, 3, 5, 6, 8, 10, 12],
+      gaps: {
+        0: '0',
+        4: '1rem',
+        8: '2rem',
+      },
+      autoMinWidths: {
+        '16': '4rem',
+        '24': '6rem',
+        '300px': '300px',
+      },
+      variants: ['responsive'],
     }),
   ],
 

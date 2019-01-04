@@ -56,6 +56,28 @@ p {
   }
 }
 
+.panel {
+  h2 a {
+    @apply text-red no-underline border-b border-transparent;
+
+    transition: 0.2s ease;
+
+    &:hover {
+      @apply border-red border-b-2;
+    }
+  }
+
+  p a {
+    @apply text-red no-underline border-b border-transparent;
+
+    transition: 0.2s ease;
+
+    &:hover {
+      @apply border-red border-b;
+    }
+  }
+}
+
 footer {
   background: $red url('../images/bg-footer.jpg') repeat-x bottom;
 

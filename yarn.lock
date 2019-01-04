@@ -8581,7 +8581,7 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
-"scss-parser@github:qodesmith/scss-parser":
+scss-parser@qodesmith/scss-parser:
   version "1.0.0"
   resolved "https://codeload.github.com/qodesmith/scss-parser/tar.gz/6fc86ce46b722b16639712ba8ed90706fa2871dc"
   dependencies:
@@ -9469,6 +9469,11 @@ table@^4.0.1:
     lodash "^4.17.4"
     slice-ansi "1.0.0"
     string-width "^2.1.1"
+
+tailwindcss-grid@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-grid/-/tailwindcss-grid-1.1.0.tgz#ca2047de29cabfec55a7d79ea4d4d7ac0d4b0412"
+  integrity sha512-TdfnDB6+7+QlXRBGkhvP7PqxdtIDjoFQUDMbZjtTV8/RFoDkXa7iMXamfwtaMemffxdT0gnyUfKcY15rLNl5XQ==
 
 tailwindcss@^0.6.5:
   version "0.6.6"
