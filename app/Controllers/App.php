@@ -6,8 +6,6 @@ use Sober\Controller\Controller;
 
 class App extends Controller
 {
-    protected $acf = false;
-
     public function siteName()
     {
         return get_bloginfo('name');

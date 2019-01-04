@@ -15,6 +15,6 @@
   <div class="w-full md:w-2/3 py-6 px-4 card">
     <span class="name">@field('name')</span>
     <span class="block uppercase font-brand font-semibold leading-loose">@field('title')</span>
-    <div class="block text-sm">@field('institution')</div>
+    <span class="block text-sm">@field('institution')</span>
   </div>
 </div>
