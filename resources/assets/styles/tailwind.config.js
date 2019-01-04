@@ -102,7 +102,7 @@ let colors = {
   'blue-darker': '#1c3d5a',
   'blue-dark': '#2779bd',
   'blue': '#3490dc',
-  'blue-light': '#6cb2eb',
+  'blue-light': '#b3e6ff',
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
 
@@ -263,6 +263,7 @@ module.exports = {
     'lg': '1.125rem',   // 18px
     'xl': '1.25rem',    // 20px
     '2xl': '1.5rem',    // 24px
+    '2.5xl': '1.625rem',   // 26px
     '3xl': '2rem',      // 32px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px

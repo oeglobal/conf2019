@@ -1,0 +1,62 @@
+.speaker {
+  position: relative;
+  margin-bottom: 2rem;
+
+  & > div {
+    z-index: 10;
+  }
+
+  .card {
+    position: absolute;
+    box-shadow: 0 1px 4px 0 #8f8f8f;
+
+    @apply bg-white;
+
+    @screen sm-only {
+      left: 16px;
+      bottom: -16px;
+    }
+
+    @screen md {
+      bottom: -30px;
+      right: 0;
+    }
+  }
+
+  .name {
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+
+    @apply block relative text-2.5xl uppercase;
+  }
+
+  .name::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 8px;
+    width: 139px;
+    bottom: 0;
+    left: 0;
+    background-color: $blue-light;
+  }
+
+  @screen sm-only {
+    background-color: $red-light;
+    padding-bottom: 160px;
+  }
+
+  @screen md {
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 40px;
+      z-index: 0;
+      background-color: $red-light;
+    }
+  }
+}
