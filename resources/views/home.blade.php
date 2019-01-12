@@ -80,8 +80,8 @@
 
   @include('components.panel-heading', ['title' => 'Organized by'])
   <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    @svg('logo-politecnico', 'max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-auto')
-    @svg('logo-oec', 'max-w-full h-16 md:h-auto')
+    @svg('logo-politecnico', 'max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22')
+    @svg('logo-oec', 'max-w-full h-16 md:h-22')
   </div>
 
   {{--
