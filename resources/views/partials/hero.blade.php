@@ -16,7 +16,7 @@
     </div>
 
     <div class="flex items-center justify-center">
-      <a href="#" class="btn">Why attend OE Global?</a>
+      <a href="{!! home_url('/why-attend/') !!}" class="btn">Why attend OE Global?</a>
     </div>
   </div>
 </div>
