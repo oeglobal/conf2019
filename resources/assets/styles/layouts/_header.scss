@@ -30,9 +30,9 @@
 
 .banner .nav .sub-menu {
   box-shadow: 0 1px 4px 0 #8f8f8f;
-  top: 97px;
+  top: 96px;
 
-  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose z-10;
+  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose z-20;
 }
 
 .banner .nav :last-child .sub-menu {

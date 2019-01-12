@@ -25,12 +25,13 @@ export default {
         () => {
           $(this).removeClass('is-active');
         }).options({
-          timeout: 500,
-          handleFocus: true,
+        timeout: 500,
+        handleFocus: true,
       });
 
-      $(this).on('click', function() {
+      $(this).on('click', function (event) {
         $(this).toggleClass('is-active');
+        event.stopPropagation();
       });
     });
   },
