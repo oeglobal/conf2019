@@ -26,8 +26,8 @@
         </div>
       </div>
 
-      <div class="my-2 px-4 md:w-1/2 flex text-white text-sm md:text-lg">
-        @svg('icon-ccby', 'mr-2 w-64 mt-1')
+      <div class="my-2 px-4 md:w-1/2 flex flex-col md:flex-row text-white text-sm md:text-lg sm-only:text-center">
+        <span>@svg('icon-ccby', 'w-24 mt-1 mb-1')</span>
         <p>Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International License.</p>
       </div>
     </div>
