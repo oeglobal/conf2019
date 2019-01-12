@@ -192,3 +192,15 @@ add_action( 'acf/init', function () {
 add_action('enqueue_block_editor_assets', function () {
     wp_enqueue_style('sage/gutenberg.css', asset_path('styles/gutenberg.css'), false, null);
 });
+
+add_action( 'wp_head', function() {
+    ?>
+    <meta property="og:title" content="<?= get_bloginfo('name'); ?>">
+    <meta property="og:site_name" content="<?= get_bloginfo('name'); ?>">
+    <meta property="og:url" content="<?= get_bloginfo('url'); ?>">
+    <meta property="og:description" content="<?= get_bloginfo('description'); ?>">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:image" content="<?= asset_path('images/facebook.jpg'); ?>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= get_bloginfo('template_url'); ?>/assets/images/apple-touch-icon.png">
+    <?php
+});
