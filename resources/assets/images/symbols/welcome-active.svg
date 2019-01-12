@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="142px" height="143px" viewBox="0 0 142 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
-    <title>icons/welcome-active</title>
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/welcome</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-21.1%" y="-19.6%" width="144.2%" height="139.3%" filterUnits="objectBoundingBox" id="filter-1">
+        <filter x="-26.5%" y="-21.6%" width="153.0%" height="143.1%" filterUnits="objectBoundingBox" id="filter-1">
             <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
@@ -15,20 +15,20 @@
         </filter>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="UI-Elements" transform="translate(-769.000000, -1166.000000)">
-            <g id="icons/welcome-active" transform="translate(768.000000, 1165.000000)">
+        <g id="UI-Elements" transform="translate(-767.000000, -1166.000000)">
+            <g id="icons/welcome" transform="translate(766.000000, 1165.000000)">
                 <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
                     <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
                 </g>
-                <g id="icon" filter="url(#filter-1)" transform="translate(12.000000, 13.000000)">
+                <g id="icon" filter="url(#filter-1)" transform="translate(24.000000, 13.000000)">
                     <g id="Group-17">
-                        <path d="M42.5,46 C43.3285868,46 44,46.6543327 44,47.4610551 L44,63.5389449 C44,64.3456673 43.3285868,65 42.5,65 C41.6722192,65 41,64.3456673 41,63.5389449 L41,47.4610551 C41,46.6543327 41.6722192,46 42.5,46" id="Fill-1" fill="#FFDD00"></path>
-                        <path d="M76.5004031,46 C77.3284063,46 78,46.6543327 78,47.4610551 L78,63.5389449 C78,64.3456673 77.3284063,65 76.5004031,65 C75.6715937,65 75,64.3456673 75,63.5389449 L75,47.4610551 C75,46.6543327 75.6715937,46 76.5004031,46" id="Fill-3" fill="#FFDD00"></path>
-                        <path d="M25,65 L25,17.2548042 C25,14.9052542 26.901435,13 29.2462752,13 L89.7529358,13 C92.098565,13 94,14.9052542 94,17.2548042 L94,27.1218073" id="Stroke-5" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
-                        <path d="M94,46 L94,98.4268871 C94,99.8879796 94.2441427,101.652491 93.079,102 M26,101.333229 C24.7494352,100.833267 25,99.7894153 25,98.2462228 L25,83" id="Shape" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
-                        <path d="M29.0890722,0.564655588 C22.4504991,4.56279605 16.6491669,9.80980244 12.0102851,15.9804652 M25.5552003,101.134173 C35.3037517,107.98089 47.1825191,112 60,112 C72.5135674,112 84.132409,108.169224 93.7477832,101.616412" id="Shape" stroke="#0069B4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
-                        <path d="M26.2963422,15 C34.8644873,19.902705 43.4318548,24.8061969 52,29.708902 L52,83.057194 C42.9994816,89.3714627 33.9997408,95.6857313 25,102" id="Stroke-9" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
-                        <path d="M91.0200467,15 C82.6795127,19.90532 74.3397563,24.8114267 66,29.7175334 L66,83.0600364 L93,102" id="Stroke-11" stroke="#0069B5" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M13,65 L13,17.2548042 C13,14.9052542 14.901435,13 17.2462752,13 L77.7529358,13 C80.098565,13 82,14.9052542 82,17.2548042 L82,27.1218073" id="Stroke-5" stroke="#4F4C4D" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M30.5,46 C31.3285868,46 32,46.6543327 32,47.4610551 L32,63.5389449 C32,64.3456673 31.3285868,65 30.5,65 C29.6722192,65 29,64.3456673 29,63.5389449 L29,47.4610551 C29,46.6543327 29.6722192,46 30.5,46" id="Fill-1" fill="#4F4C4D"></path>
+                        <path d="M64.5004031,46 C65.3284063,46 66,46.6543327 66,47.4610551 L66,63.5389449 C66,64.3456673 65.3284063,65 64.5004031,65 C63.6715937,65 63,64.3456673 63,63.5389449 L63,47.4610551 C63,46.6543327 63.6715937,46 64.5004031,46" id="Fill-3" fill="#4F4C4D"></path>
+                        <path d="M82,46 L82,98.4268871 C82,99.8879796 82.2441427,101.652491 81.079,102 M14,101.333229 C12.7494352,100.833267 13,99.7894153 13,98.2462228 L13,83" id="Shape" stroke="#4F4C4D" stroke-width="4" stroke-linejoin="round"></path>
+                        <path d="M15.488817,15.4076503 C24.0569622,20.3103553 31.4318548,24.8061969 40,29.708902 L40,83.057194 C30.9994816,89.3714627 22.7370488,94.9983065 13.737308,101.312575" id="Stroke-9" stroke="#0069B5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M79.5407296,15.342623 C71.2001956,20.2479429 62.3397563,24.8114267 54,29.7175334 L54,83.0600364 L81,102" id="Stroke-11" stroke="#0069B5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M17.0890722,0.564655588 C10.4504991,4.56279605 4.6491669,9.80980244 0.0102850781,15.9804652" id="Path" stroke="#4F4C4D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
                     </g>
                 </g>
             </g>
