@@ -66,14 +66,14 @@
     }
   }
 
-  &::after {
-    position: absolute;
-    display: block;
-    bottom: 2px;
-    right: 5px;
-    content: "CC-BY Author";
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    color: $white;
-    font-size: 12px;
-  }
+  //&::after {
+  //  position: absolute;
+  //  display: block;
+  //  bottom: 2px;
+  //  right: 5px;
+  //  content: "CC-BY Author";
+  //  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  //  color: $white;
+  //  font-size: 12px;
+  //}
 }
