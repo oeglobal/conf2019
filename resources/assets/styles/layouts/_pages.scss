@@ -1,0 +1,19 @@
+.wp-block-quote {
+  @apply mt-10;
+}
+
+.wp-block-quote p {
+  @apply pl-6 border-red border-l-8 font-light;
+
+  @screen md {
+    @apply text-xl;
+  }
+}
+
+.wp-block-quote cite {
+  @apply block text-right roman text-sm;
+
+  @screen md {
+    @apply text-lg;
+  }
+}
