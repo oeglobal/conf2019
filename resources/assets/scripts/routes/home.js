@@ -2,8 +2,9 @@ require('lightgallery');
 
 export default {
   loadGallery() {
-    require(['lg-thumbnail'], function(){
+    require(['lg-thumbnail'], function () {
       $('#lightgallery').lightGallery({
+        exThumbImage: 'data-exthumbimage',
       });
     });
   },

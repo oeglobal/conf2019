@@ -18,3 +18,8 @@
   scroll-snap-coordinate: 0% 0%; /* older (Firefox/IE) */
   -webkit-scroll-snap-coordinate: 0% 0%; /* older (Safari) */
 }
+
+.gallery-item .image {
+  background-size: cover;
+  background-position: center center;
+}
