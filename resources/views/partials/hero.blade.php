@@ -1,7 +1,7 @@
 <div class="hero flex items-center justify-center bg-grey-dark">
   <div class="text-white hero-text text-center flex flex-col justify-center items-center">
     <h1>Open Education <br class="md:hidden"/> Global Conference</h1>
-    <div class="tagline">Open Future for an Open Education</div>
+    <div class="tagline">Open Education for an Open Future</div>
 
     <div class="name">Resources, Practices, Communities</div>
     <div class="location-date flex justify-between flex-col md:flex-row mb-4 md:mb-14">
