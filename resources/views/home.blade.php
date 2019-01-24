@@ -80,8 +80,13 @@
 
   @include('components.panel-heading', ['title' => 'Organized by'])
   <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    @svg('logo-politecnico', 'max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22')
-    @svg('logo-oec', 'max-w-full h-16 md:h-22')
+    <a href="https://www.polimi.it/"><img src="@asset('images/logo-politecnico.svg')" alt="Politecnico di Milano" class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22" /></a>
+    <a href="https://www.oeconsortium.org/"><img src="@asset('images/logo-oec.svg')" alt="Open Education Consortium" class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22" /></a>
+  </div>
+
+  @include('components.panel-heading', ['title' => 'Collaborators'])
+  <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
+    <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.jpg')" alt="Open Praxis" class="max-w-full h-16 md:h-22" /></a>
   </div>
 
   {{--
