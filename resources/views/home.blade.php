@@ -86,7 +86,7 @@
 
   @include('components.panel-heading', ['title' => 'Collaborators'])
   <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.jpg')" alt="Open Praxis" class="max-w-full h-16 md:h-22" /></a>
+    <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.svg')" alt="Open Praxis" class="max-w-full h-16 md:h-22" /></a>
   </div>
 
   {{--
