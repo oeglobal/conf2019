@@ -11,8 +11,9 @@ p {
   @apply mb-3 leading-normal;
 }
 
-.content p a {
-  @apply text-primary no-underline border-b border-transparent;
+.content p a,
+.content td a {
+  @apply text-red no-underline border-b border-transparent;
 
   transition: 0.2s ease;
 

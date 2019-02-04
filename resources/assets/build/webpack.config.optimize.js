@@ -54,7 +54,9 @@ module.exports = {
           extensions: ['html', 'js', 'php'],
         },
       ],
-      whitelist: [],
+      whitelist: [
+        ...whitelister('resources/assets/styles/components/_tables.scss'),
+      ],
     }),
   ],
 };
