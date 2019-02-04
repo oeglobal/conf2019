@@ -60,7 +60,8 @@ p {
     }
   }
 
-  p {
+  p,
+  li {
     @apply text-sm;
 
     @screen md {
@@ -74,6 +75,10 @@ p {
     &:last-of-type {
       @apply mb-6;
     }
+  }
+
+  li {
+    margin-bottom: 8px;
   }
 
   p a {
