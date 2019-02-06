@@ -19,6 +19,12 @@ table.red-table {
   text-align: left;
   border-collapse: collapse;
   margin-bottom: 2em;
+
+  @screen sm-only {
+    display: block;
+    border: none;
+    overflow-x: scroll;
+  }
 }
 
 table.red-table tbody td {
