@@ -7,3 +7,33 @@
     padding-bottom: 8px;
   }
 }
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table.red-table {
+  border: 1px solid #1c6ea4;
+  background-color: #f9f9f9;
+  width: auto;
+  text-align: left;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+table.red-table tbody td {
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+table.red-table tr:first-of-type {
+  background: #ef3f24;
+  color: #fff;
+  border-bottom: 3px solid white;
+}
+
+table.red-table td,
+table.blueTable th {
+  border: 1px solid #aaa;
+  padding: 3px 4px;
+}

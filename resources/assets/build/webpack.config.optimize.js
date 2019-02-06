@@ -56,6 +56,7 @@ module.exports = {
       ],
       whitelist: [
         ...whitelister('resources/assets/styles/components/_tables.scss'),
+        ...whitelister('resources/assets/styles/common/_global.scss'),
       ],
     }),
   ],

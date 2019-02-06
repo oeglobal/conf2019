@@ -99,3 +99,19 @@ footer {
     height: 374px;
   }
 }
+
+body {
+  color: #4a4a4a;
+  background-color: white;
+}
+
+.main ol,
+.main ul {
+  line-height: 1.5;
+}
+
+.main h1,
+.main h2,
+.main h3 {
+  text-transform: uppercase;
+}
