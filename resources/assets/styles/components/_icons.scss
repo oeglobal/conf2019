@@ -62,4 +62,13 @@
   height: 87px;
 }
 
+.social .hover-red {
+  &:hover,
+  &:active {
+    svg #inside {
+      fill: $red;
+    }
+  }
+}
+
 /* purgecss end ignore */

@@ -115,3 +115,15 @@ body {
 .main h3 {
   text-transform: uppercase;
 }
+
+.social {
+  top: 260px;
+  z-index: 100;
+}
+
+.social .text {
+  display: inline-block;
+  transform: rotate(-90deg);
+  height: 60px;
+  width: 100px;
+}

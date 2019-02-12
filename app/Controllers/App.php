@@ -30,4 +30,9 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+    public function currentUrl() {
+        global $wp;
+        return 'https:' . home_url( $wp->request );
+    }
 }
