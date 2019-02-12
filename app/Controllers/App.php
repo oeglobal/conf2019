@@ -33,6 +33,6 @@ class App extends Controller
 
     public function currentUrl() {
         global $wp;
-        return 'https:' . home_url( $wp->request );
+        return home_url( $wp->request );
     }
 }
