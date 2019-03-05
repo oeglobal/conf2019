@@ -77,3 +77,29 @@
   clip: auto;
   white-space: normal;
 }
+
+/* Gravity forms */
+
+.gform_body input,
+.gform_body textarea {
+  border: 1px solid #dae1e7;
+}
+
+.gform_body [type='button'] {
+  @apply bg-red my-3 px-4 pt-4 pb-3 text-white leading-none no-underline uppercase font-brand font-bold;
+
+  text-shadow: none;
+  transition: 0.2s ease;
+
+  &:hover,
+  &:focus,
+  &:active {
+    @apply bg-red-light;
+  }
+}
+
+.gform_body [type='radio'],
+.gform_body [type='checkbox'] {
+  margin-top: -5px !important;
+  margin-right: 5px;
+}
