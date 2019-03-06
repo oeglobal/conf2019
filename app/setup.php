@@ -204,3 +204,6 @@ add_action( 'wp_head', function() {
     <link rel="apple-touch-icon" sizes="180x180" href="<?= get_bloginfo('template_url'); ?>/assets/images/apple-touch-icon.png">
     <?php
 });
+
+/* Gravity Forms */
+require get_template_directory() . '/../app/gforms.php';

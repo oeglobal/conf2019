@@ -85,7 +85,8 @@
   border: 1px solid #dae1e7;
 }
 
-.gform_body [type='button'] {
+.gform_body [type='button'],
+.gform_body [type='submit'] {
   @apply bg-red my-3 px-4 pt-4 pb-3 text-white leading-none no-underline uppercase font-brand font-bold;
 
   text-shadow: none;
@@ -102,4 +103,8 @@
 .gform_body [type='checkbox'] {
   margin-top: -5px !important;
   margin-right: 5px;
+}
+
+.gform_body .bulleted * {
+  //@apply text-xs;
 }
