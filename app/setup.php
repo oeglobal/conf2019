@@ -78,6 +78,8 @@ add_action( 'after_setup_theme', function () {
         'capability' => 'edit_posts',
         'redirect'   => false
     ) );
+
+    add_theme_support( 'responsive-embeds' );
 }, 20 );
 
 /**
