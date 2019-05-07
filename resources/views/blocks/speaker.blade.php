@@ -13,8 +13,8 @@
     <img class="w-full h-full" src="@field('image')" alt="@field('name')" />
   </div>
   <div class="w-full md:w-2/3 py-6 px-4 card">
-    <span class="name">@field('name')</span>
-    <span class="block uppercase font-brand font-semibold leading-loose">@field('title')</span>
-    <span class="block text-sm">@field('institution')</span>
+    <p class="name">@field('name')</p>
+    <p class="block uppercase font-brand font-semibold leading-tight mb-0-important">@field('title')</p>
+    <p class="block text-sm mb-0-important">@field('institution')</p>
   </div>
 </div>
