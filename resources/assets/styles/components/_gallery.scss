@@ -23,3 +23,14 @@
   background-size: cover;
   background-position: center center;
 }
+
+.wp-block-gallery .blocks-gallery-item figcaption {
+  @apply pt-2;
+
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.wp-block-gallery .blocks-gallery-item figcaption,
+.wp-block-gallery .blocks-gallery-item figcaption a {
+  @apply font-brand text-black;
+}
