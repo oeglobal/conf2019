@@ -32,7 +32,7 @@ add_action( 'after_setup_theme', function () {
     add_theme_support( 'soil-nav-walker' );
     add_theme_support( 'soil-nice-search' );
     add_theme_support( 'soil-relative-urls' );
-    add_theme_support('soil-google-analytics', 'UA-4248822-4');
+    add_theme_support( 'soil-google-analytics', 'UA-4248822-4' );
 
 
     /**
@@ -144,67 +144,19 @@ add_action( 'after_setup_theme', function () {
     } );
 } );
 
-/**
- * ACF Gutenberg blocks
- * https://discourse.roots.io/t/sage-gutenberg-and-acf-blocks/13945/3
- */
-add_action( 'acf/init', function () {
-    if ( function_exists( 'acf_register_block' ) ) {
-        // Look into views/blocks
-        $dir = new \DirectoryIterator( \locate_template( "views/blocks/" ) );
-        // Loop through found blocks
-        foreach ( $dir as $fileinfo ) {
-            if ( ! $fileinfo->isDot() ) {
-                $slug = str_replace( '.blade.php', '', $fileinfo->getFilename() );
-                // Get infos from file
-                $file_path    = \locate_template( "views/blocks/${slug}.blade.php" );
-                $file_headers = get_file_data( $file_path, [
-                    'title'       => 'Title',
-                    'description' => 'Description',
-                    'category'    => 'Category',
-                    'icon'        => 'Icon',
-                    'keywords'    => 'Keywords',
-                ] );
-                if ( empty( $file_headers['title'] ) ) {
-                    die( _e( 'This block needs a title: ' . $file_path ) );
-                }
-                if ( empty( $file_headers['category'] ) ) {
-                    die( _e( 'This block needs a category: ' . $file_path ) );
-                }
-                // Register a new block
-                $datas = [
-                    'name'            => $slug,
-                    'title'           => $file_headers['title'],
-                    'description'     => $file_headers['description'],
-                    'category'        => $file_headers['category'],
-                    'icon'            => $file_headers['icon'],
-                    'keywords'        => explode( ' ', $file_headers['keywords'] ),
-                    'render_callback' => function( $block ) {
-                        $slug             = str_replace( 'acf/', '', $block['name'] );
-                        $block['slug']    = $slug;
-                        $block['classes'] = implode( ' ', [ $block['slug'], $block['className'], $block['align'] ] );
-                        echo \App\template( "blocks/${slug}", [ 'block' => $block ] );
-                    },
-                ];
-
-                acf_register_block( $datas );
-            }
-        }
-    }
+add_action( 'enqueue_block_editor_assets', function () {
+    wp_enqueue_style( 'sage/gutenberg.css', asset_path( 'styles/gutenberg.css' ), false, null );
 } );
 
-add_action('enqueue_block_editor_assets', function () {
-    wp_enqueue_style('sage/gutenberg.css', asset_path('styles/gutenberg.css'), false, null);
-});
-
-add_action( 'wp_head', function() {
+add_action( 'wp_head', function () {
     ?>
-    <meta property="og:title" content="<?= get_bloginfo('name'); ?>">
-    <meta property="og:site_name" content="<?= get_bloginfo('name'); ?>">
-    <meta property="og:url" content="<?= get_bloginfo('url'); ?>">
-    <meta property="og:description" content="<?= get_bloginfo('description'); ?>">
+    <meta property="og:title" content="<?= get_bloginfo( 'name' ); ?>">
+    <meta property="og:site_name" content="<?= get_bloginfo( 'name' ); ?>">
+    <meta property="og:url" content="<?= get_bloginfo( 'url' ); ?>">
+    <meta property="og:description" content="<?= get_bloginfo( 'description' ); ?>">
     <meta property="og:type" content="restaurant">
-    <meta property="og:image" content="<?= asset_path('images/facebook.png'); ?>">
-    <link rel="apple-touch-icon" sizes="180x180" href="<?= get_bloginfo('template_url'); ?>/assets/images/apple-touch-icon.png">
+    <meta property="og:image" content="<?= asset_path( 'images/facebook.png' ); ?>">
+    <link rel="apple-touch-icon" sizes="180x180"
+          href="<?= get_bloginfo( 'template_url' ); ?>/assets/images/apple-touch-icon.png">
     <?php
-});
+} );
