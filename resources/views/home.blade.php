@@ -20,7 +20,7 @@
       'text' => 'Schedule',
       'size' => 'sm',
       'class' => 'w-32',
-      'link' => home_url('/sched-app/')
+      'link' => home_url('/schedule/')
     ])
     @endcomponent
 
