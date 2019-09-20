@@ -7,11 +7,11 @@
 @section('content')
   <div class="justify-around mb-10 hidden md:flex">
     @component('components.symbol', [
-      'svg' => 'venue-active',
-      'text' => 'The Venue',
+      'svg' => 'speakers-active',
+      'text' => 'Keynotes',
       'size' => 'sm',
       'class' => 'w-32',
-      'link' => home_url('/venue/'),
+      'link' => home_url('/keynotes/'),
     ])
     @endcomponent
 
