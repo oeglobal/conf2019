@@ -49,6 +49,18 @@
   @include symbol-icon(25px, 21px);
 }
 
+.livestreaming-active {
+  @include symbol-icon(5px, 36px);
+}
+
+.program-active {
+  @include symbol-icon(32px, 26px);
+}
+
+.sched-active {
+  @include symbol-icon(42px, 26px);
+}
+
 .symbol {
   @apply no-underline;
 }

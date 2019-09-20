@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="145px" viewBox="0 0 144 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>icons/sched</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/sched" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+            <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+        </g>
+        <g id="icon" transform="translate(44.000000, 23.000000)">
+            <g id="Group-25" transform="translate(64.000000, 0.000000)" stroke="#000000" stroke-width="4">
+                <path d="M1,1 C6.56845859,4.43460892 10.350333,9.89481707 12,16" id="Stroke-7" transform="translate(6.500000, 8.500000) rotate(-5.000000) translate(-6.500000, -8.500000) "></path>
+            </g>
+            <g id="Group" transform="translate(0.000000, 2.000000)" fill-rule="nonzero">
+                <path d="M56,81.0073242 L56,92 L8.1161377,92 M8.1161377,92 L0,92 L0,82.3413086 M0,70.6464844 L0,0 L56,0 L56,72.9399414" id="Shape" stroke="#231F20" stroke-width="4" stroke-linejoin="round"></path>
+                <path d="M20,6 L28,6" id="Line-5" stroke="#231F20" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M34,6 L35,6" id="Line-5" stroke="#231F20" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M0,6 L11,6" id="Line-5" stroke="#231F20" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path>
+                <polyline id="Path" stroke="#EE3E24" stroke-width="5" stroke-linecap="square" points="8 64.375 8 64.375 16 64.375"></polyline>
+                <polyline id="Path" stroke="#0069B4" stroke-width="5" stroke-linecap="square" points="24 64.375 24 64.375 44 64.375"></polyline>
+                <polyline id="Path" stroke="#EE3E24" stroke-width="5" stroke-linecap="square" points="22 21.875 22 21.875 42 21.875"></polyline>
+                <polyline id="Path" stroke="#0069B4" stroke-width="5" stroke-linecap="square" points="8 35.375 8 35.375 22 35.375"></polyline>
+                <polyline id="Path" stroke="#231F20" stroke-width="5" stroke-linecap="square" points="13 47.875 13 47.875 41 47.875"></polyline>
+            </g>
+            <path d="M46.0021311,39 C48.7635548,39 51.0021311,41.2385763 51.0021311,44 L51.002,65 L68.0021311,65 C71.8681243,65 75.0021311,68.1340068 75.0021311,72 L75.0021311,88 C75.0021311,91.8659932 71.8681243,95 68.0021311,95 L48.0021311,95 C47.4213653,95 46.8571184,94.9292739 46.3175338,94.7959649 C44.9506666,94.932317 43.5364649,94.4783732 42.4868464,93.4342141 C42.4809772,93.4283754 42.4751232,93.4225214 42.4692845,93.4166522 L28.4007061,79.2745166 C26.533098,77.3971437 26.533098,74.3636644 28.4007061,72.4862915 C30.2557737,70.6215248 33.2712951,70.6136621 35.1360618,72.4687296 C35.1419311,72.4745683 35.1477851,72.4804223 35.1536238,72.4862915 L41.002,78.365 L41.0021311,72 L41.0021311,44 C41.0021311,41.2385763 43.2407073,39 46.0021311,39 Z" id="Combined-Shape" stroke="#FFDD00" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="square" stroke-linejoin="round" transform="translate(51.001066, 67.000000) rotate(-14.000000) translate(-51.001066, -67.000000) "></path>
+        </g>
+    </g>
+</svg>

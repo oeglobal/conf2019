@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="145px" viewBox="0 0 144 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icons/livestreaming</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/livestreaming" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-width="4">
+            <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+        </g>
+        <g id="icon" transform="translate(5.000000, 35.662951)" fill-rule="nonzero" stroke-linecap="square">
+            <g id="Group" transform="translate(26.500000, 28.500000) rotate(-135.000000) translate(-26.500000, -28.500000) translate(8.000000, 10.000000)" stroke="#FFDD00" stroke-width="4">
+                <path d="M14,37 C14,29.2680135 7.7319865,23 0,23" id="Shape"></path>
+                <path d="M26,37 C26,22.6405965 14.3594035,11 0,11" id="Shape"></path>
+                <path d="M37,37 C37,16.5654643 20.4345357,0 0,0" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(105.500000, 26.500000) rotate(45.000000) translate(-105.500000, -26.500000) translate(87.000000, 8.000000)" stroke="#FFDD00" stroke-width="4">
+                <path d="M14,37 C14,29.2680135 7.7319865,23 0,23" id="Shape"></path>
+                <path d="M26,37 C26,22.6405965 14.3594035,11 0,11" id="Shape"></path>
+                <path d="M37,37 C37,16.5654643 20.4345357,0 0,0" id="Shape"></path>
+            </g>
+            <g id="Group-2" transform="translate(51.000000, 13.337049)" stroke="#0069B4" stroke-width="3">
+                <path d="M15.496582,28 C23.2285685,28 29.496582,21.7319865 29.496582,14 C29.496582,11.7131448 28.9482734,9.554354 27.97595,7.64792129 C26.5311673,4.81513864 24.1501932,2.5395428 21.2408068,1.2289126 C19.4881174,0.439355158 17.5436581,0 15.496582,0 C7.76459553,0 1.49658203,6.2680135 1.49658203,14 C1.49658203,21.7319865 7.76459553,28 15.496582,28 Z" id="Oval"></path>
+                <path d="M24.4594727,41.3259018 L34.4091797,74 M2.5,66.5 L15.5615234,66.5 M25.9487305,66.5 L31.5,66.5 M-1.49213975e-13,74 L11.996582,28 M7.5,48.5 C20.1418961,48.5 26.1418961,48.5 25.5,48.5 M5.5,57.5 L28.5,57.5" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
