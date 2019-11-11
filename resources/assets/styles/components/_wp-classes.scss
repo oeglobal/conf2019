@@ -128,3 +128,9 @@
 .wp-block-gallery .blocks-gallery-item figcaption a {
   @apply font-brand text-black;
 }
+
+.page-id-1150 .wp-block-column:first-child {
+  @screen lg {
+    max-width: 30%;
+  }
+}
