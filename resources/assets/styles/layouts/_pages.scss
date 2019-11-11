@@ -17,3 +17,9 @@
     @apply text-lg;
   }
 }
+
+.page-id-1150 .wp-block-column:first-child {
+  @screen lg {
+    max-width: 30%;
+  }
+}
