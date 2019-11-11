@@ -89,18 +89,17 @@
                                                  class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
   </div>
 
+  @include('components.panel-heading', ['title' => 'Sponsors'])
+  <div class="flex flex-wrap items-center justify-between pt-8 mb-32">
+    <a href="https://www.moodle.com"><img src="@asset('images/logo-moodle.svg')" alt="Moodle" class="max-w-full h-16 md:h-22"/></a>
+    <a href="https://www.smarthink.eu/edulai"><img src="@asset('images/logo-edulai.svg')" alt="Edulai" class="max-w-full h-16 md:h-22"/></a>
+    <a href="https://www.grasple.com/open"><img src="@asset('images/logo-grasple.svg')" alt="Grasple" class="max-w-full h-16 md:h-22"/></a>
+  </div>
+
   @include('components.panel-heading', ['title' => 'Collaborators'])
   <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
     <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.svg')" alt="Open Praxis"
                                           class="max-w-full h-16 md:h-22"/></a>
   </div>
-
-  {{--
-  @include('components.panel-heading', ['title' => 'Sponsors'])
-  <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    @svg('logo-politecnico', 'max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-auto')
-    @svg('logo-oec', 'max-w-full h-16 md:h-auto')
-  </div>
-  --}}
 
 @endsection
