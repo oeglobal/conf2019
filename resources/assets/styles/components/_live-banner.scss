@@ -1,0 +1,39 @@
+.live-banner {
+  background:
+    linear-gradient(
+      to right,
+      rgba(248, 178, 167, 1) 40px,
+      rgba(245, 139, 124, 1) 40px,
+      rgba(245, 139, 124, 1) 70px,
+      rgba(241, 101, 80, 1) 70px,
+      rgba(241, 101, 80, 1) 95px,
+      rgba(238, 62, 36, 1) 95px,
+      rgba(238, 62, 36, 1),
+      rgba(238, 62, 36, 1) calc(100% - 95px),
+      rgba(241, 101, 80, 1) calc(100% - 95px),
+      rgba(241, 101, 80, 1) calc(100% - 70px),
+      rgba(245, 139, 124, 1) calc(100% - 70px),
+      rgba(245, 139, 124, 1) calc(100% - 40px),
+      rgba(248, 178, 167, 1) calc(100% - 40px),
+      rgba(248, 178, 167, 1)
+    );
+}
+
+.live-banner a {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: $white;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.live-banner .icon-arrow {
+  margin-bottom: -2px;
+  margin-left: 7px;
+
+  #shape {
+    fill: $white;
+  }
+}
