@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('hero')
-  @component('components.live-banner', [])@endcomponent()
   @include('partials.hero')
   <div class="block"></div>
 @endsection
