@@ -17,11 +17,11 @@
         >
           <span class="block md:inline mb-4">
             <span class="block md:inline">@svg('icon-pin')</span>
-            <span class="block md:inline">Politecnico di Milano</span>
+            <span class="block md:inline">Taipei Medical University</span>
           </span>
           <span class="block md:inline">
             <span class="block md:inline">@svg('icon-calendar')</span>
-            <span class="block md:inline">26-28 November 2019</span>
+            <span class="block md:inline">20-22 November 2020</span>
           </span>
         </div>
       </div>
