@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="142px" height="143px" viewBox="0 0 142 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+<svg width="144px" height="145px" viewBox="0 0 144 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>icons/call for proposals</title>
     <desc>Created with Sketch.</desc>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="UI-Elements" transform="translate(-30.000000, -1927.000000)">
-            <g id="icons/call-for-proposals" transform="translate(29.000000, 1926.000000)">
-                <g id="graph-elemets/outter-circle" fill="#FFFFFF" fill-rule="nonzero" stroke="#EE3E24" stroke-linecap="round" stroke-width="4">
-                    <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
-                </g>
-                <g stroke-width="1" fill-rule="evenodd" transform="translate(11.000000, 41.000000)" id="icon">
-                    <g stroke-width="4">
-                        <g id="Group-7" transform="translate(0.000000, 2.000000)" stroke="#0069B5">
-                            <path d="M49.547655,48 C33.0314742,43.6419181 16.5161808,39.2838361 0,34.9257542 L0,22.1648573 C28.0002958,14.7771535 55.9997042,7.38857673 84,0" id="Stroke-1"></path>
-                            <path d="M71,28.5 C71,44.2401847 76.5961663,57 83.5,57 C90.4038337,57 96,44.2401847 96,28.5 C96,12.7598153 90.4038337,0 83.5,0 C76.5961663,0 71,12.7598153 71,28.5 Z" id="Stroke-3"></path>
-                            <path d="M10.564,19 L10.436,28" id="Stroke-5"></path>
-                        </g>
-                        <path d="M106.5,31 L120.304687,31" id="Line-3" stroke="#231F20" fill-rule="nonzero"></path>
-                        <path d="M99.4794172,4.79882812 L113.284105,4.79882812" id="Line-3" stroke="#FFDD00" fill-rule="nonzero" transform="translate(106.381761, 4.798828) rotate(-30.000000) translate(-106.381761, -4.798828) "></path>
-                        <path d="M99.4794172,57.2011719 L113.284105,57.2011719" id="Line-3" stroke="#FFDD00" fill-rule="nonzero" transform="translate(106.381761, 57.201172) rotate(-330.000000) translate(-106.381761, -57.201172) "></path>
-                    </g>
-                </g>
+    <g id="icons/call-for-proposals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="graph-elemets/outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-width="4">
+            <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+        </g>
+        <g id="call-proposals" transform="translate(21.000000, 34.000000)" fill-rule="nonzero" stroke="#333333">
+            <rect id="Rectangle" stroke-width="1.8" fill="#FFFFFF" x="0" y="4.5" width="93" height="5.4"></rect>
+            <rect id="Rectangle" stroke-width="1.8" fill="#FFFFFF" x="10.3" y="67.5" width="95" height="5.4"></rect>
+            <rect id="Rectangle" stroke-width="1.8" fill="#FFFFFF" x="5.4" y="0" width="82" height="14.4"></rect>
+            <rect id="Rectangle" stroke-width="1.8" fill="#FFFFFF" x="15.7" y="63" width="85" height="14.4"></rect>
+            <path d="M8.5,14.4 L82.3,14.4 C82.5487835,20.3534646 83.0978069,24.6791482 83.9470703,27.3770508 C87.7729868,39.5310538 94.1902877,49.1436323 95.9921875,56.1884766 C98.3940562,65.5790052 97.6740042,72.649513 93.8320312,77.4 L22.9609375,77.4 C26.4735705,72.6839616 27.0245471,65.6134538 24.6138672,56.1884766 C22.8886921,49.4436008 15.2052022,40.4602101 10.9837891,29.1014648 C9.86552622,26.092505 9.03759653,21.1920167 8.5,14.4 Z" id="Rectangle" stroke-width="1.8" fill="#FFFFFF"></path>
+            <g id="Group-2" transform="translate(56.273493, 44.212631) rotate(-12.000000) translate(-56.273493, -44.212631) translate(31.273493, 24.712631)" stroke-width="2">
+                <polygon id="Rectangle" fill="#FFFFFF" points="2.84217094e-14 11.1730044 37 3.22204897 37 29.222049 2.84217094e-14 21.2710935"></polygon>
+                <polygon id="Rectangle" fill="#FFFFFF" points="6.06790572 23.0075299 10.0679057 23.9342102 11.6057679 38.9342102 7.60576786 38.0075299"></polygon>
+                <line x1="44.2675781" y1="14.8846466" x2="49.2666016" y2="14.8846466" id="Path"></line>
+                <line x1="39.7599354" y1="27.2692933" x2="44.7589588" y2="27.2692933" id="Path" transform="translate(42.259447, 27.269293) rotate(40.000000) translate(-42.259447, -27.269293) "></line>
+                <line x1="39.7599354" y1="2.5" x2="44.7589588" y2="2.5" id="Path" transform="translate(42.259447, 2.500000) rotate(320.000000) translate(-42.259447, -2.500000) "></line>
             </g>
         </g>
     </g>

@@ -2,21 +2,12 @@
   position: relative;
   height: 480px;
   margin-bottom: 40px;
-  background: white url('../images/hero-sm.jpg') center center no-repeat;
+  background: white url('../images/hero.jpg') center center no-repeat;
   background-size: cover;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-
-  @screen md {
-    height: 560px;
-    background-image: url('../images/hero-md.jpg');
-  }
+  //text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
   @screen lg {
     background-image: url('../images/hero-lg.jpg');
-  }
-
-  @screen xl {
-    background-image: url('../images/hero-xl.jpg');
   }
 
   .hero-text {
@@ -54,10 +45,7 @@
   .name {
     margin-bottom: 24px;
     font-size: 20px;
-
-    @screen md {
-      margin-bottom: 70px;
-    }
+    margin-left: 20px;
   }
 
   .location-date {

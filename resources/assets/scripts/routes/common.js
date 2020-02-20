@@ -3,7 +3,7 @@ import hoverintent from 'hoverintent/dist/hoverintent.min';
 export default {
   loadGoogleFonts() {
     window.WebFontConfig = {
-      google: {families: ['Josefin+Sans:400,600,700&amp;subset=latin-ext']},
+      google: { families: ['Montserrat:400,600,700&amp;subset=latin-ext'] },
     };
 
     (function (d) {

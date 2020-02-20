@@ -8,43 +8,43 @@
 @section('content')
   <div class="justify-around mb-10 hidden md:flex">
     @component('components.symbol', [
-      'svg' => 'speakers-active',
-      'text' => 'Keynotes',
+      'svg' => 'welcome',
+      'text' => 'Welcome',
       'size' => 'sm',
       'class' => 'w-32',
-      'link' => home_url('/keynotes/'),
+      'link' => home_url('/welcome/'),
     ])
     @endcomponent
 
     @component('components.symbol', [
-      'svg' => 'program-active',
+      'svg' => 'venue',
       'text' => 'Schedule',
       'size' => 'sm',
       'class' => 'w-32',
-      'link' => home_url('/schedule/')
+      'link' => home_url('/venue/')
     ])
     @endcomponent
 
     @component('components.symbol', [
-      'svg' => 'sched-active',
-      'text' => 'Mobile Schedule',
+      'svg' => 'cfp',
+      'text' => 'Call for proposals',
       'size' => 'sm',
       'class' => 'w-32',
-      'link' => home_url('/sched-app/')
+      'link' => home_url('/cfp/')
     ])
     @endcomponent
 
     @component('components.symbol', [
-    'svg' => 'milan-active',
-    'text' => 'About Milan',
+    'svg' => 'taiwan',
+    'text' => 'About Taipei',
     'size' => 'sm',
     'class' => 'w-32',
-    'link' => home_url('/about-milan/')
+    'link' => home_url('/about-taipei/')
     ])
     @endcomponent
 
     @component('components.symbol', [
-    'svg' => 'travel-active',
+    'svg' => 'travel',
     'text' => 'Plan your Travel',
     'size' => 'sm',
     'class' => 'w-32',
@@ -84,23 +84,29 @@
 
   @include('components.panel-heading', ['title' => 'Organized by'])
   <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
+    {{--
     <a href="https://www.polimi.it/"><img src="@asset('images/logo-politecnico.svg')" alt="Politecnico di Milano"
                                           class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
-    <a href="https://www.oeconsortium.org/"><img src="@asset('images/logo-oec.svg')" alt="Open Education Consortium"
-                                                 class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
+    --}}
+    <a href="https://www.oeglobal.org/"><img src="@asset('images/logo-oeglobal.svg')" alt="Open Education Consortium"
+                                                 class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
+  {{--
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
     <a href="https://www.moodle.com"><img src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-16 md:h-24"/></a>
     <a href="https://www.smarthink.eu/edulai"><img src="@asset('images/logo-edulai.svg')" alt="Edulai" class="h-16 md:h-24"/></a>
     <a href="https://www.grasple.com/open"><img src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-16 md:h-24"/></a>
   </div>
+  --}}
 
-  @include('components.panel-heading', ['title' => 'Collaborators'])
-  <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.svg')" alt="Open Praxis"
-                                          class="max-w-full h-16 md:h-22"/></a>
-  </div>
+  {{--
+    @include('components.panel-heading', ['title' => 'Collaborators'])
+    <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
+      <a href="https://openpraxis.org"><img src="@asset('images/logo-open-praxis.svg')" alt="Open Praxis"
+                                            class="max-w-full h-16 md:h-22"/></a>
+    </div>
+  --}}
 
 @endsection

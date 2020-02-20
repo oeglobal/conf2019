@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="145px" viewBox="0 0 144 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icons/taiwan</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icons/taiwan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="graph-elemets/outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-width="4">
+            <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
+        </g>
+        <g id="taiwan" transform="translate(14.000000, 22.000000)" fill-rule="nonzero" stroke="#333333" stroke-width="2">
+            <path d="M106.567622,26 L111,85 L76.0612245,85 L75.7117327,71.5909091 L75.7011043,71.3172761 C75.3271695,64.0379543 67.7208402,58.1818182 58.5507201,58.1818182 C49.3805999,58.1818182 41.7922275,64.0379543 41.4406134,71.3172761 L41.4308241,71.5909091 L41.122449,85 L4,85 L8.43237797,26 L106.567622,26 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M14.4418945,30.4790039 C13.3221029,31.9926758 12.2023112,33.5063477 11.0825195,35.0200195" id="Path-2"></path>
+            <path d="M11.3378906,59.1464844 C15.2684054,62.9275655 14.3197255,60.5577067 13.4760742,66.5" id="Path-3"></path>
+            <path d="M20.4760742,80.5717773 C22.8382863,72.4672249 20.1713381,74.8411958 28.3461914,73.3056641" id="Path-4"></path>
+            <path d="M99.6674805,81.6933594 C101.255049,75.1088946 99.2643682,77.1406427 104.844238,74.909668" id="Path-5"></path>
+            <path d="M100.503906,30.1645508 C101.195587,34.4003058 100.196943,32.5026088 104.091797,35.5043945" id="Path-6"></path>
+            <path d="M79.6533203,32.5839844 C82.1022135,32.6276042 84.5511068,32.671224 87,32.7148438" id="Path-7"></path>
+            <path d="M30.2441406,33.1196289 C32.6515299,33.2086589 35.0589193,33.2976888 37.4663086,33.3867188" id="Path-8"></path>
+            <polygon id="Rectangle" fill="#FFFFFF" points="0.218261719 22 115.570801 22 106.894531 26 8.89453125 26"></polygon>
+            <polygon id="Rectangle" fill="#FFFFFF" points="23.4204102 10 92.3686523 10 109.917743 22 5.87131968 22"></polygon>
+            <path d="M23.4204102,10 C32.8520508,13 44.3785807,14.5 58,14.5 C71.6214193,14.5 83.0776367,13 92.3686523,10 L98.3261719,0 C84.523112,4.83333333 70.914388,7.25 57.5,7.25 C44.085612,7.25 30.7399089,4.83333333 17.4628906,0 L23.4204102,10 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="57.8945312" cy="44" r="6"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" x="79.8945312" y="38" width="9" height="12"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="27.8945312" y="38" width="9" height="12"></rect>
+        </g>
+    </g>
+</svg>

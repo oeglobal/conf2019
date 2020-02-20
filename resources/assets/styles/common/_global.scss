@@ -1,3 +1,7 @@
+html {
+  @apply font-brand;
+}
+
 h1,
 h2,
 h3,
@@ -93,7 +97,10 @@ p {
 }
 
 footer {
-  background: $red url('../images/bg-footer.png') repeat-x bottom;
+  background-color: $red;
+  background-image: url('../images/bg-footer.png');
+  background-repeat: repeat-x;
+  background-size: contain;
 
   @screen md {
     height: 374px;

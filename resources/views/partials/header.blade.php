@@ -3,8 +3,7 @@
               sm-only:pr-0
               h-16 md:h-24">
     <a class="brand flex" href="{{ home_url('/') }}" alt="Home">
-      @svg('logo-mobile', 'md:hidden')
-      @svg('logo', 'hidden md:block h-16 w-auto pl-2')
+      @svg('logo', 'h-16 w-auto pl-2')
     </a>
     <nav role="navigation"
          class="nav-primary
