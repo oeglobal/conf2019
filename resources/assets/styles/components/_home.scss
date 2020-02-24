@@ -35,18 +35,30 @@
     display: inline-block;
     background-color: theme('colors.red');
     border-left: 5px solid theme('colors.yellow');
-    margin: 15px 0;
+    margin: 15px auto;
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
     color: $white;
-    padding: 7px 40px 7px 10px;
+    padding: 7px 20px 7px 10px;
+
+    @screen md {
+      margin: 15px 0;
+      padding: 7px 40px 7px 10px;
+    }
   }
 
   .name {
     margin-bottom: 24px;
     font-size: 20px;
     margin-left: 20px;
+
+    @screen sm-only {
+      display: inline-block;
+      padding: 0 10px;
+      margin: 10px auto 40px;
+      background-color: $white;
+    }
   }
 
   .location-date {
