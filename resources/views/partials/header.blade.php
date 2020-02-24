@@ -13,7 +13,7 @@
            sub-menu menu-open menu---material --}}
       @if (has_nav_menu('primary_navigation'))
         {!! wp_nav_menu(['theme_location' => 'primary_navigation',
-                         'menu_class' => 'nav nav-dropdown list-reset']) !!}
+                         'menu_class' => 'nav nav-dropdown']) !!}
       @endif
     </nav>
     <button class="js-toggle-menu toggle-menu flex md:hidden self-start">@svg('menu', 'menu')</button>

@@ -1,4 +1,4 @@
-<div class="pin-l hidden md:block sticky social h-none relative">
+<div class="left-0 hidden md:block sticky social h-none relative">
   <div class="absolute bg-white px-2 w-10 text-center">
     <a
       class="block mt-2 hover-red"

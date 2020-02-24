@@ -4,7 +4,7 @@
     <title>icons/welcome</title>
     <desc>Created with Sketch.</desc>
     <g id="icons/welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-        <g id="graph-elemets/outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-linecap="round" stroke-width="4">
+        <g id="outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-linecap="round" stroke-width="4">
             <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
         </g>
         <g id="welcome" transform="translate(11.000000, 24.000000)" fill-rule="nonzero" stroke="#333333">

@@ -41,7 +41,7 @@ p {
     left: 0;
     height: 8px;
     width: calc(100% - 21px);
-    background-color: $red;
+    background-color: theme('colors.red');
 
     @screen md {
       height: 8px;
@@ -97,7 +97,7 @@ p {
 }
 
 footer {
-  background-color: $red;
+  background-color: theme('colors.red');
   background-image: url('../images/bg-footer.png');
   background-repeat: repeat-x;
   background-size: contain;

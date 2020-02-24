@@ -11,7 +11,7 @@
 }
 
 .wp-block-quote cite {
-  @apply block text-right roman text-sm;
+  @apply block text-right not-italic text-sm;
 
   @screen md {
     @apply text-lg;

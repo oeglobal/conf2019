@@ -4,7 +4,7 @@
     <title>icons/taiwan</title>
     <desc>Created with Sketch.</desc>
     <g id="icons/taiwan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="graph-elemets/outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-width="4">
+        <g id="outtercircle" fill="#F2F2F2" fill-rule="nonzero" stroke="#FF5547" stroke-width="4">
             <ellipse id="Oval" cx="72" cy="72.5" rx="69" ry="69.4791667"></ellipse>
         </g>
         <g id="taiwan" transform="translate(14.000000, 22.000000)" fill-rule="nonzero" stroke="#333333" stroke-width="2">

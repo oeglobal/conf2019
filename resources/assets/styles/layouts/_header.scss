@@ -3,7 +3,7 @@
 }
 
 .banner .nav {
-  @apply list-reset flex flex-wrap;
+  @apply flex flex-wrap;
 }
 
 .banner .nav a {
@@ -32,7 +32,7 @@
   box-shadow: 0 1px 4px 0 #8f8f8f;
   top: 96px;
 
-  @apply hidden absolute pin-l list-reset w-48 bg-white flex-col justify-center leading-loose z-20;
+  @apply hidden absolute left-0 list-none w-48 bg-white flex-col justify-center leading-loose z-20;
 }
 
 .banner .nav :last-child .sub-menu {
@@ -56,7 +56,7 @@
 
 .menu-open .toggle-menu svg {
   #background {
-    fill: $red;
+    fill: theme('colors.red');
   }
 
   #menu---material {

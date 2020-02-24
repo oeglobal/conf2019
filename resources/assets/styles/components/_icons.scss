@@ -1,64 +1,59 @@
 /* purgecss start ignore */
-@mixin symbol-icon($x1, $y1) {
-  svg #icon {
-    filter: none;
-    transform: translate($x1, $y1);
-  }
-
+@mixin symbol-icon() {
   &:hover svg {
-    #icon {
-      filter: url(#filter-1);
-      transform: translate($x1, $y1 - 8px);
+    #outtercircle {
+      //fill: theme('colors.red');
+      fill: #f6993f;
     }
   }
 }
 
 .cfp-active {
-  @include symbol-icon(11px, 41px);
+  @include symbol-icon();
 }
 
 .hotel-active {
-  @include symbol-icon(20px, 43px);
+  @include symbol-icon();
 }
 
-.milan-active {
-  @include symbol-icon(29px, 22px);
+.taipei-active {
+  @include symbol-icon();
 }
 
 .question-active {
-  @include symbol-icon(43px, 24px);
+  @include symbol-icon();
 }
 
 .registration-active {
-  @include symbol-icon(38px, 24px);
+  @include symbol-icon();
 }
 
 .speakers-active {
-  @include symbol-icon(39px, 16px);
+  @include symbol-icon();
 }
 
 .travel-active {
-  @include symbol-icon(33px, 32px);
+  @include symbol-icon();
 }
 
 .venue-active {
-  @include symbol-icon(44px, 34px);
+  @include symbol-icon();
 }
 
 .welcome-active {
-  @include symbol-icon(25px, 21px);
+  @include symbol-icon();
 }
 
 .livestreaming-active {
-  @include symbol-icon(5px, 36px);
+  @include symbol-icon();
 }
 
 .program-active {
-  @include symbol-icon(32px, 26px);
+  @include symbol-icon();
 }
 
 .sched-active {
-  @include symbol-icon(42px, 26px);
+  @include symbol-icon();
 }
 
 .symbol {
@@ -70,6 +65,7 @@
 }
 
 .symbol-sm svg {
+  display: inline-block;
   width: 87px;
   height: 87px;
 }
@@ -78,7 +74,7 @@
   &:hover,
   &:active {
     svg #inside {
-      fill: $red;
+      fill: theme('colors.red');
     }
   }
 }
