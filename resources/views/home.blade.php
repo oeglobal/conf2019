@@ -11,7 +11,7 @@
       'svg' => 'welcome',
       'text' => 'Welcome',
       'size' => 'sm',
-      'class' => 'w-32',
+      'class' => 'w-32 active',
       'link' => home_url('/welcome/'),
     ])
     @endcomponent
@@ -20,7 +20,7 @@
       'svg' => 'venue',
       'text' => 'Schedule',
       'size' => 'sm',
-      'class' => 'w-32',
+      'class' => 'w-32 active',
       'link' => home_url('/venue/')
     ])
     @endcomponent
@@ -29,7 +29,7 @@
       'svg' => 'cfp',
       'text' => 'Call for proposals',
       'size' => 'sm',
-      'class' => 'w-32',
+      'class' => 'w-32 active',
       'link' => home_url('/cfp/')
     ])
     @endcomponent
@@ -38,7 +38,7 @@
     'svg' => 'taiwan',
     'text' => 'About Taipei',
     'size' => 'sm',
-    'class' => 'w-32',
+    'class' => 'w-32 active',
     'link' => home_url('/about-taipei/')
     ])
     @endcomponent
@@ -47,7 +47,7 @@
     'svg' => 'travel',
     'text' => 'Plan your Travel',
     'size' => 'sm',
-    'class' => 'w-32',
+    'class' => 'w-32 active',
     'link' => home_url('/plan-your-travel/')
     ])
     @endcomponent
@@ -71,13 +71,12 @@
     'title' => 'The Venue',
     'svg' => 'symbols/venue',
     'image_classes' => 'text-right',
-    'svg_classes' => 'max-w-full w-32',
+    'svg_classes' => 'max-w-full w-32 inline-block',
     'link' => home_url('/venue/')
   ])
-    <p>The OE Global 2019 will be hosted at the Milano Bovisa Campus, north of Milan. The campus has been substantially
-      expanded as the result of an international competition, which was announced in 1998 by Politecnico di Milano in
-      collaboration with other local entities (Municipality and Region) and which has brought about a general renewal of
-      the zone.</p>
+    <p>Taipei Medical University is located in Xinyi District of Taipei, Taiwan. The famous Taipei 101 building, Taipei
+      World Trade Center, and fashion shopping area are within walking distance. TMU campus is compact. The conference
+      venue, the Xing-Chun Building, is located in the center of the campus.</p>
   @endcomponent
 
   @include('partials.gallery')
@@ -89,7 +88,7 @@
                                           class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
     --}}
     <a href="https://www.oeglobal.org/"><img src="@asset('images/logo-oeglobal.svg')" alt="Open Education Consortium"
-                                                 class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
+                                             class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
   {{--

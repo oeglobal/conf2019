@@ -5,6 +5,7 @@
                "
     >
       <div class="my-2 px-4 md:w-1/4 -mt-4">
+        @svg('logo-oeglobal-white', 'max-w-52 md:max-w-full mb-6')
         @svg('logo-white', 'max-w-52 md:max-w-full')
       </div>
 

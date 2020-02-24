@@ -2,57 +2,12 @@
 @mixin symbol-icon() {
   &:hover svg {
     #outtercircle {
-      //fill: theme('colors.red');
-      fill: #f6993f;
+      fill: theme('colors.red');
     }
   }
 }
 
-.cfp-active {
-  @include symbol-icon();
-}
-
-.hotel-active {
-  @include symbol-icon();
-}
-
-.taipei-active {
-  @include symbol-icon();
-}
-
-.question-active {
-  @include symbol-icon();
-}
-
-.registration-active {
-  @include symbol-icon();
-}
-
-.speakers-active {
-  @include symbol-icon();
-}
-
-.travel-active {
-  @include symbol-icon();
-}
-
-.venue-active {
-  @include symbol-icon();
-}
-
-.welcome-active {
-  @include symbol-icon();
-}
-
-.livestreaming-active {
-  @include symbol-icon();
-}
-
-.program-active {
-  @include symbol-icon();
-}
-
-.sched-active {
+.symbol.active {
   @include symbol-icon();
 }
 
