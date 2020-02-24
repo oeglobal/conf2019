@@ -7,8 +7,10 @@
   }
 }
 
-.symbol.active {
-  @include symbol-icon();
+.symbol.active:hover svg {
+  #outtercircle {
+    fill: theme('colors.red');
+  }
 }
 
 .symbol {
