@@ -82,11 +82,11 @@
   @include('partials.gallery')
 
   @include('components.panel-heading', ['title' => 'Organized by'])
-  <div class="flex flex-wrap items-center justify-center pt-8 mb-32">
-    {{--
-    <a href="https://www.polimi.it/"><img src="@asset('images/logo-politecnico.svg')" alt="Politecnico di Milano"
+  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2">
+
+    <a href="http://eng.tmu.edu.tw/"><img src="@asset('images/logo-tmu.svg')" alt="Taipei Medical University (TMU)"
                                           class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
-    --}}
+
     <a href="https://www.oeglobal.org/"><img src="@asset('images/logo-oeglobal.svg')" alt="Open Education Consortium"
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
