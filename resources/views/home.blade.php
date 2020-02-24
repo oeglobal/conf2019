@@ -18,7 +18,7 @@
 
     @component('components.symbol', [
       'svg' => 'venue',
-      'text' => 'Schedule',
+      'text' => 'Venue',
       'size' => 'sm',
       'class' => 'w-32 active',
       'link' => home_url('/venue/')
