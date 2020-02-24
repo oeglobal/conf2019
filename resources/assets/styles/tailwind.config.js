@@ -1,5 +1,19 @@
 module.exports = {
   theme: {
+    extend: {
+      colors: {
+        'main': '#0D59F2',
+        'main-dark': '#195BB3',
+        'main-darker': '#1F467A',
+        'main-light': '#3D7AF5',
+        'main-lighter': '#6E9CF7',
+        'main-lightest': '#9EBDFA',
+      },
+      letterSpacing: {
+        'widest': '1px',
+      },
+    },
+
     colors: {
       'primary': '#525ddc',
 
@@ -256,26 +270,6 @@ module.exports = {
       'normal': 1.5,
       'loose': 1.75,
     },
-
-
-    /*
-    |-----------------------------------------------------------------------------
-    | Tracking (letter spacing)       https://tailwindcss.com/docs/letter-spacing
-    |-----------------------------------------------------------------------------
-    |
-    | Here is where you define your letter spacing values, or as we call
-    | them in Tailwind, tracking.
-    |
-    | Class name: .tracking-{size}
-    |
-    */
-
-    letterSpacing: {
-      'tight': '-0.05em',
-      'normal': '0',
-      'wide': '0.05em',
-    },
-
 
     /*
     |-----------------------------------------------------------------------------

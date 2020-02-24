@@ -35,4 +35,8 @@ class App extends Controller
         global $wp;
         return home_url( $wp->request );
     }
+
+    public function site() {
+        return strtolower(OEG_SITE);
+    }
 }

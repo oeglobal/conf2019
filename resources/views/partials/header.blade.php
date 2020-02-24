@@ -1,3 +1,9 @@
+<header class="header shadow-md z-50 bg-main-dark">
+  @component('components.global-header', [
+    'site' => $site,
+])@endcomponent
+</header>
+
 <header class="banner">
   <div class="container flex items-center justify-between
               sm-only:pr-0

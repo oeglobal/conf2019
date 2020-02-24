@@ -1,0 +1,15 @@
+.global-header__item {
+  line-height: 2;
+  letter-spacing: 1px;
+
+  @apply inline-flex text-white flex-initial px-4 h-6;
+
+  &:hover,
+  &:active {
+    @apply bg-main-light;
+  }
+}
+
+.global-header__item.active {
+  @apply bg-main-light;
+}
