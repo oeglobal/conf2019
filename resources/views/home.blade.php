@@ -25,6 +25,7 @@
     ])
     @endcomponent
 
+    {{--
     @component('components.symbol', [
       'svg' => 'cfp',
       'text' => 'Call for proposals',
@@ -33,6 +34,7 @@
       'link' => home_url('/cfp/')
     ])
     @endcomponent
+    --}}
 
     @component('components.symbol', [
     'svg' => 'taiwan',
