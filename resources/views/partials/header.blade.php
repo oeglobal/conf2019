@@ -13,7 +13,7 @@
     </a>
     <nav role="navigation"
          class="nav-primary
-                hidden md:block">
+                hidden lg:block">
       {{-- menu-item menu-item-type-post_type
            menu-item-object-page menu-item-has-children
            sub-menu menu-open menu---material --}}
@@ -22,6 +22,6 @@
                          'menu_class' => 'nav nav-dropdown']) !!}
       @endif
     </nav>
-    <button class="js-toggle-menu toggle-menu flex md:hidden self-start">@svg('menu', 'menu')</button>
+    <button class="js-toggle-menu toggle-menu flex lg:hidden self-middle">@svg('menu', 'menu')</button>
   </div>
 </header>

@@ -73,6 +73,10 @@
 
   @apply block absolute bg-white px-0 ;
 
+  @screen md {
+    top: 97px;
+  }
+
   .menu-item {
     @apply w-full h-auto flex-col items-start;
   }
