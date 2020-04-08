@@ -93,6 +93,12 @@
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
+  @include('components.panel-heading', ['title' => 'Supporters'])
+  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
+    <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')" alt="Taiwan Open Course and Education Consortium" class="h-16 md:h-24"/></a>
+    <span><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium" class="h-16 md:h-24"/></span>
+  </div>
+
   {{--
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
