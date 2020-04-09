@@ -96,7 +96,7 @@
   @include('components.panel-heading', ['title' => 'Supporters'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
     <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')" alt="Taiwan Open Course and Education Consortium" class="h-16 md:h-24"/></a>
-    <span><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium" class="h-16 md:h-24"/></span>
+    <a href="https://copeneduc.org/"><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium" class="h-16 md:h-24"/></a>
   </div>
 
   {{--
