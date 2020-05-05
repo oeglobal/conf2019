@@ -36,6 +36,7 @@
     @endcomponent
     --}}
 
+    {{--
     @component('components.symbol', [
     'svg' => 'taiwan',
     'text' => 'About Taipei',
@@ -44,7 +45,9 @@
     'link' => home_url('/about-taipei/')
     ])
     @endcomponent
+    --}}
 
+    {{--
     @component('components.symbol', [
     'svg' => 'travel',
     'text' => 'Plan your Travel',
@@ -53,6 +56,7 @@
     'link' => home_url('/plan-your-travel/')
     ])
     @endcomponent
+    --}}
   </div>
 
   @component('components.panel', [

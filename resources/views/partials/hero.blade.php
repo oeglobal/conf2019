@@ -5,7 +5,7 @@
       <div class="flex">
         <div class="tagline">Connecting the global <br/>open education community</div>
       </div>
-      <div class="name">20-22 November, 2020</div>
+      <div class="name">16-20 November, 2020</div>
     </div>
     <div class="text-white hero-text text-center flex flex-col justify-center items-center">
       <div class="flex items-center justify-center">
