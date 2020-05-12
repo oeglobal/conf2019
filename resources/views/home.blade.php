@@ -97,6 +97,16 @@
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
+  @include('components.panel-heading', ['title' => 'Co-hosted by'])
+  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2">
+
+    <a href="https://www.ecampusontario.ca/"><img src="@asset('images/logo-ecampus.png')" alt="eCampusOntario"
+                                          class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
+
+    <a href="https://www.tudelft.nl/en/"><img src="@asset('images/logo-delft.png')" alt="Delft University of Technology"
+                                             class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
+  </div>
+
   @include('components.panel-heading', ['title' => 'Supporters'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
     <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')" alt="Taiwan Open Course and Education Consortium" class="h-16 md:h-24"/></a>
