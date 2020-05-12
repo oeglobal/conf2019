@@ -101,7 +101,7 @@
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2">
 
     <a href="https://www.ecampusontario.ca/"><img src="@asset('images/logo-ecampus.png')" alt="eCampusOntario"
-                                          class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
+                                          class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-20"/></a>
 
     <a href="https://www.tudelft.nl/en/"><img src="@asset('images/logo-delft.png')" alt="Delft University of Technology"
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
