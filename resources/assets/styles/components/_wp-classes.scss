@@ -121,7 +121,10 @@
 .wp-block-gallery .blocks-gallery-item figcaption {
   @apply pt-2;
 
-  background: rgba(255, 255, 255, 0.5);
+  line-height: 1.375;
+  background: rgba(77, 77, 77, 0.8);
+  color: white !important;
+  text-align: left;
 }
 
 .wp-block-gallery .blocks-gallery-item figcaption,
@@ -134,3 +137,4 @@
     max-width: 30%;
   }
 }
+
