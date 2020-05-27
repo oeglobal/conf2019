@@ -6,6 +6,7 @@
 @endsection
 
 @section('content')
+  {{--
   <div class="justify-around mb-10 hidden md:flex">
     @component('components.symbol', [
       'svg' => 'welcome',
@@ -24,6 +25,7 @@
       'link' => home_url('/venue/')
     ])
     @endcomponent
+  --}}
 
     {{--
     @component('components.symbol', [
@@ -57,7 +59,10 @@
     ])
     @endcomponent
     --}}
+
+  {{--
   </div>
+  --}}
 
   @component('components.panel', [
     'title' => 'About',
