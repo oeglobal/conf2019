@@ -78,6 +78,7 @@
       advances educational practices around the world.</p>
   @endcomponent
 
+  {{--
   @component('components.panel', [
     'title' => 'The Venue',
     'svg' => 'symbols/venue',
@@ -89,6 +90,7 @@
       World Trade Center, and fashion shopping area are within walking distance. TMU campus is compact. The conference
       venue, the Xing-Chun Building, is located in the center of the campus.</p>
   @endcomponent
+  --}}
 
   @include('partials.gallery')
 

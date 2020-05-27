@@ -155,7 +155,7 @@ add_action( 'wp_head', function () {
     <meta property="og:url" content="<?= get_bloginfo( 'url' ); ?>">
     <meta property="og:description" content="<?= get_bloginfo( 'description' ); ?>">
     <meta property="og:type" content="restaurant">
-    <meta property="og:image" content="<?= asset_path( 'images/facebook.png' ); ?>">
+    <meta property="og:image" content="<?= asset_path( 'images/facebook2.png' ); ?>">
     <link rel="apple-touch-icon" sizes="180x180"
           href="<?= get_bloginfo( 'template_url' ); ?>/assets/images/apple-touch-icon.png">
     <?php

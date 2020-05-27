@@ -95,6 +95,20 @@
   //  color: $white;
   //  font-size: 12px;
   //}
+
+  .hero__logo {
+    top: -40px;
+  }
+
+  .hero__tagline {
+    padding-top: 66px;
+    line-height: 40px;
+  }
+
+  .hero__cta {
+    margin-bottom: -40px;
+    margin-top: 40px;
+  }
 }
 
 .home-sponsors img {
