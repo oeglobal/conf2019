@@ -139,3 +139,21 @@
   }
 }
 
+.wp-block-gallery.columns-2 .blocks-gallery-grid {
+  @apply grid gap-2 grid-cols-2;
+}
+
+.wp-block-gallery.columns-3 .blocks-gallery-grid {
+  @apply grid gap-2 grid-cols-3;
+}
+
+.wp-block-gallery.columns-4 .blocks-gallery-grid {
+  @apply grid gap-2 grid-cols-4;
+}
+
+.wp-block-gallery.columns-4 .blocks-gallery-item,
+.wp-block-gallery.columns-3 .blocks-gallery-item,
+.wp-block-gallery.columns-2 .blocks-gallery-item {
+  width: 100% !important;
+  margin: 0 !important;
+}
