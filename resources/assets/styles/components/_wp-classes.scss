@@ -86,6 +86,11 @@
   border: 1px solid #dae1e7;
 }
 
+.ginput_container_select select {
+  height: 39px;
+}
+
+
 .gform_body [type='button'],
 .gform_body [type='submit'] {
   @apply bg-red my-3 px-4 pt-4 pb-3 text-white leading-none no-underline uppercase font-brand font-bold;
