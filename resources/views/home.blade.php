@@ -120,14 +120,11 @@
     <a href="https://copeneduc.org/"><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium" class="h-16 md:h-24"/></a>
   </div>
 
-  {{--
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
-    <a href="https://www.moodle.com"><img src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-16 md:h-24"/></a>
-    <a href="https://www.smarthink.eu/edulai"><img src="@asset('images/logo-edulai.svg')" alt="Edulai" class="h-16 md:h-24"/></a>
-    <a href="https://www.grasple.com/open"><img src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-16 md:h-24"/></a>
+    <a href="https://feedbackfruits.com/"><img src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-16 md:h-24"/></a>
+    <a href="https://www.grasple.com/"><img src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-16 md:h-24"/></a>
   </div>
-  --}}
 
   {{--
     @include('components.panel-heading', ['title' => 'Collaborators'])
