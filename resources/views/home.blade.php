@@ -27,38 +27,38 @@
     @endcomponent
   --}}
 
-    {{--
-    @component('components.symbol', [
-      'svg' => 'cfp',
-      'text' => 'Call for proposals',
-      'size' => 'sm',
-      'class' => 'w-32 active',
-      'link' => home_url('/cfp/')
-    ])
-    @endcomponent
-    --}}
-
-    {{--
-    @component('components.symbol', [
-    'svg' => 'taiwan',
-    'text' => 'About Taipei',
+  {{--
+  @component('components.symbol', [
+    'svg' => 'cfp',
+    'text' => 'Call for proposals',
     'size' => 'sm',
     'class' => 'w-32 active',
-    'link' => home_url('/about-taipei/')
-    ])
-    @endcomponent
-    --}}
+    'link' => home_url('/cfp/')
+  ])
+  @endcomponent
+  --}}
 
-    {{--
-    @component('components.symbol', [
-    'svg' => 'travel',
-    'text' => 'Plan your Travel',
-    'size' => 'sm',
-    'class' => 'w-32 active',
-    'link' => home_url('/plan-your-travel/')
-    ])
-    @endcomponent
-    --}}
+  {{--
+  @component('components.symbol', [
+  'svg' => 'taiwan',
+  'text' => 'About Taipei',
+  'size' => 'sm',
+  'class' => 'w-32 active',
+  'link' => home_url('/about-taipei/')
+  ])
+  @endcomponent
+  --}}
+
+  {{--
+  @component('components.symbol', [
+  'svg' => 'travel',
+  'text' => 'Plan your Travel',
+  'size' => 'sm',
+  'class' => 'w-32 active',
+  'link' => home_url('/plan-your-travel/')
+  ])
+  @endcomponent
+  --}}
 
   {{--
   </div>
@@ -95,7 +95,7 @@
   @include('partials.gallery')
 
   @include('components.panel-heading', ['title' => 'Organized by'])
-  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2">
+  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2 home-sponsors">
 
     <a href="http://eng.tmu.edu.tw/"><img src="@asset('images/logo-tmu.svg')" alt="Taipei Medical University (TMU)"
                                           class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
@@ -105,25 +105,36 @@
   </div>
 
   @include('components.panel-heading', ['title' => 'Co-hosted by'])
-  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2">
+  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2 home-sponsors">
 
     <a href="https://www.ecampusontario.ca/"><img src="@asset('images/logo-ecampus.png')" alt="eCampusOntario"
-                                          class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-20"/></a>
+                                                  class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-20"/></a>
 
     <a href="https://www.tudelft.nl/en/"><img src="@asset('images/logo-delft.png')" alt="Delft University of Technology"
-                                             class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
+                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
   @include('components.panel-heading', ['title' => 'Supporters'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
-    <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')" alt="Taiwan Open Course and Education Consortium" class="h-16 md:h-24"/></a>
-    <a href="https://copeneduc.org/"><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium" class="h-16 md:h-24"/></a>
+    <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')"
+                                             alt="Taiwan Open Course and Education Consortium"
+                                             class="h-16 md:h-24"/></a>
+    <a href="https://copeneduc.org/"><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium"
+                                          class="h-16 md:h-24"/></a>
   </div>
 
   @include('components.panel-heading', ['title' => 'Sponsors'])
-  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
-    <a href="https://feedbackfruits.com/"><img src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-16 md:h-24"/></a>
-    <a href="https://www.grasple.com/"><img src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-16 md:h-24"/></a>
+  <div class="grid grid-cols-3 gap-y-12 items-center justify-around pt-8 mb-32 home-sponsors">
+    <a href="https://feedbackfruits.com/" class="block h-16 md:h-24 flex justify-center"><img
+        src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-full w-auto"/></a>
+    <a href="https://www.grasple.com/" class="block h-16 md:h-24 flex justify-center"><img
+        src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-full w-auto"/></a>
+    <a href="https://www.moodle.com/" class="block h-16 md:h-24 flex justify-center"><img
+        src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-full w-auto"/></a>
+    <a href="https://libretexts.org/" class="block h-16 md:h-24 flex justify-center"><img
+        src="@asset('images/logo-libretexts.png')" alt="LibreTexts" class="h-full w-auto"/></a>
+    <a href="https://www.achievingthedream.org/" class="block h-16 md:h-24 flex justify-center"><img
+        src="@asset('images/logo-atd.png')" alt="Achieving the Dream" class="h-full w-auto"/></a>
   </div>
 
   {{--

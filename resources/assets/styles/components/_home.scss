@@ -111,6 +111,11 @@
   }
 }
 
-.home-sponsors img {
-  max-width: 240px;
+.home-sponsors a {
+  &:hover,
+  &:focus,
+  &:active {
+    //border-bottom: none;
+    border-color: transparent;
+  }
 }
