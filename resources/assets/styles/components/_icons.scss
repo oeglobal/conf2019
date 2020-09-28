@@ -15,6 +15,12 @@
 
 .symbol {
   @apply no-underline;
+
+  &:hover,
+  &:focus,
+  &:active {
+    @apply border-transparent;
+  }
 }
 
 .symbol-label {

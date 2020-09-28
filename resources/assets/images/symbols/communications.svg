@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="142px" viewBox="0 0 142 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/communications</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons-list" transform="translate(-616.000000, -508.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(615.000000, 507.000000)">
+                <g>
+                    <circle id="Background" fill="#F2F2F2" cx="72" cy="72" r="69"></circle>
+                    <circle id="Outline" stroke="#EE3E24" stroke-width="4" stroke-linejoin="round" cx="72" cy="72" r="69"></circle>
+                </g>
+                <path d="M88.3754463,41.5238783 L35.873413,72.813013 C33.1779961,74.4234832 33.4475378,78.5283658 36.3187428,79.7513544 L52.7490666,86.7744574 L52.7490666,99.1254317 C52.7490666,102.782289 57.1789256,104.368541 59.3938551,101.583518 L66.5074119,92.6472246 L81.3204855,98.9680173 C83.5588535,99.9246124 86.0902015,98.4594478 86.4534968,95.9771441 L93.9537873,45.4713465 C94.4342747,42.2382974 91.0708632,39.9134081 88.3754463,41.5238783 Z M57,99 L57,88 L63,90.7871622 L57,99 Z M82.4285714,96 L58.034375,85.5823544 L81.6359375,56.7504196 C82.2037946,56.0656917 81.2928571,55.1364181 80.6303571,55.7233277 L50.4274554,82.3298969 L37,76.6075282 L90,45 L82.4285714,96 Z" id="icon" fill="#333333"></path>
+            </g>
+        </g>
+    </g>
+</svg>

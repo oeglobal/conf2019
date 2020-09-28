@@ -6,63 +6,56 @@
 @endsection
 
 @section('content')
-  {{--
+
   <div class="justify-around mb-10 hidden md:flex">
     @component('components.symbol', [
-      'svg' => 'welcome',
-      'text' => 'Welcome',
+      'svg' => 'cfp',
+      'text' => 'Keynotes',
       'size' => 'sm',
       'class' => 'w-32 active',
-      'link' => home_url('/welcome/'),
+      'link' => 'https://connect.oeglobal.org/c/oeg-2020/keynotes/16',
     ])
     @endcomponent
 
     @component('components.symbol', [
-      'svg' => 'venue',
-      'text' => 'Venue',
+      'svg' => 'sponsor',
+      'text' => 'Sponsors',
       'size' => 'sm',
       'class' => 'w-32 active',
-      'link' => home_url('/venue/')
+      'link' => 'https://connect.oeglobal.org/c/oeg-2020/sponsors/19'
     ])
     @endcomponent
-  --}}
 
-  {{--
-  @component('components.symbol', [
-    'svg' => 'cfp',
-    'text' => 'Call for proposals',
+    @component('components.symbol', [
+      'svg' => 'updates',
+      'text' => 'Announcements',
+      'size' => 'sm',
+      'class' => 'w-32 active',
+      'link' => 'https://connect.oeglobal.org/c/oeg-2020/announcements/22'
+    ])
+    @endcomponent
+
+    @component('components.symbol', [
+    'svg' => 'committee',
+    'text' => 'Lobby',
     'size' => 'sm',
     'class' => 'w-32 active',
-    'link' => home_url('/cfp/')
-  ])
-  @endcomponent
-  --}}
+    'link' => 'https://connect.oeglobal.org/c/oeg-2020/15'
+    ])
+    @endcomponent
 
-  {{--
-  @component('components.symbol', [
-  'svg' => 'taiwan',
-  'text' => 'About Taipei',
-  'size' => 'sm',
-  'class' => 'w-32 active',
-  'link' => home_url('/about-taipei/')
-  ])
-  @endcomponent
-  --}}
+    {{--
+    @component('components.symbol', [
+    'svg' => 'travel',
+    'text' => 'Plan your Travel',
+    'size' => 'sm',
+    'class' => 'w-32 active',
+    'link' => home_url('/plan-your-travel/')
+    ])
+    @endcomponent
+    --}}
 
-  {{--
-  @component('components.symbol', [
-  'svg' => 'travel',
-  'text' => 'Plan your Travel',
-  'size' => 'sm',
-  'class' => 'w-32 active',
-  'link' => home_url('/plan-your-travel/')
-  ])
-  @endcomponent
-  --}}
-
-  {{--
   </div>
-  --}}
 
   @component('components.panel', [
     'title' => 'About',
