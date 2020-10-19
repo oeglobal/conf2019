@@ -117,17 +117,22 @@
   </div>
 
   @include('components.panel-heading', ['title' => 'Sponsors'])
-  <div class="grid grid-cols-3 gap-y-12 items-center justify-around pt-8 mb-32 home-sponsors">
-    <a href="https://feedbackfruits.com/" class="block h-16 md:h-24 flex justify-center"><img
-        src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-full w-auto"/></a>
-    <a href="https://www.grasple.com/" class="block h-16 md:h-24 flex justify-center"><img
-        src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-full w-auto"/></a>
-    <a href="https://www.moodle.com/" class="block h-16 md:h-24 flex justify-center"><img
-        src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-full w-auto"/></a>
-    <a href="https://libretexts.org/" class="block h-16 md:h-24 flex justify-center"><img
-        src="@asset('images/logo-libretexts.png')" alt="LibreTexts" class="h-full w-auto"/></a>
-    <a href="https://www.achievingthedream.org/" class="block h-16 md:h-24 flex justify-center"><img
-        src="@asset('images/logo-atd.png')" alt="Achieving the Dream" class="h-full w-auto"/></a>
+  <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
+    <a href="https://feedbackfruits.com/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-auto max-h-full"/></a>
+    <a href="https://www.grasple.com/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-auto max-h-full"/></a>
+    <a href="https://www.moodle.com/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-auto max-h-full"/></a>
+    <a href="https://libretexts.org/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-libretexts.png')" alt="LibreTexts" class="h-auto max-h-full"/></a>
+    <a href="https://www.achievingthedream.org/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-atd.png')" alt="Achieving the Dream" class="h-auto max-h-full"/></a>
+    <a href="https://pressbooks.com/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-pressbooks.png')" alt="Pressbooks" class="h-auto max-h-full"/></a>
+    <a href="http://www.formosasoft.com/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-formosasoft.png')" alt="FormosaSoft Corporation" class="h-auto max-h-full"/></a>
+
   </div>
 
   {{--
