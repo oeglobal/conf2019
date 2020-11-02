@@ -132,7 +132,18 @@
         src="@asset('images/logo-pressbooks.png')" alt="Pressbooks" class="h-auto max-h-full"/></a>
     <a href="http://www.formosasoft.com/" class="block h-24 flex justify-center items-center"><img
         src="@asset('images/logo-formosasoft.png')" alt="FormosaSoft Corporation" class="h-auto max-h-full"/></a>
-
+    <a href="https://campus.edx.org" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-edx.svg')" alt="edX" class="h-auto max-h-full"/></a>
+    <a href="https://www.oitc.com.tw/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-otsuka.jpg')" alt="Otsuka Information Technology Corp." class="h-auto max-h-full"/></a>
+    <a href="https://20mm.org/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-20mm.png')" alt="The Michelson 20MM Foundation" class="h-auto max-h-full"/></a>
+    <a href="https://learnful.ca/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-learnful.jpg')" alt="Learnful" class="h-auto max-h-full"/></a>
+    <a href="http://univ-numerique.fr/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-numerique.png')" alt="L'Université Numérique" class="h-auto max-h-full"/></a>
+    <a href="http://www.aunege.org/" class="block h-24 flex justify-center items-center"><img
+        src="@asset('images/logo-aunege.png')" alt="AUNEGe" class="h-auto max-h-full"/></a>
   </div>
 
   {{--
