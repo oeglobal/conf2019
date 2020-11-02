@@ -118,31 +118,32 @@
 
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
-    <a href="https://feedbackfruits.com/" class="block h-24 flex justify-center items-center"><img
+    @php($img_class='block h-48 flex justify-center items-center max-w-70%')
+    <a href="https://feedbackfruits.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-auto max-h-full"/></a>
-    <a href="https://www.grasple.com/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://www.grasple.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-grasple.svg')" alt="Grasple" class="h-auto max-h-full"/></a>
-    <a href="https://www.moodle.com/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://www.moodle.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-moodle.svg')" alt="Moodle" class="h-auto max-h-full"/></a>
-    <a href="https://libretexts.org/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://libretexts.org/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-libretexts.png')" alt="LibreTexts" class="h-auto max-h-full"/></a>
-    <a href="https://www.achievingthedream.org/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://www.achievingthedream.org/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-atd.png')" alt="Achieving the Dream" class="h-auto max-h-full"/></a>
-    <a href="https://pressbooks.com/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://pressbooks.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-pressbooks.png')" alt="Pressbooks" class="h-auto max-h-full"/></a>
-    <a href="http://www.formosasoft.com/" class="block h-24 flex justify-center items-center"><img
+    <a href="http://www.formosasoft.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-formosasoft.png')" alt="FormosaSoft Corporation" class="h-auto max-h-full"/></a>
-    <a href="https://campus.edx.org" class="block h-24 flex justify-center items-center"><img
+    <a href="https://campus.edx.org" class="{!! $img_class !!}"><img
         src="@asset('images/logo-edx.svg')" alt="edX" class="h-auto max-h-full"/></a>
-    <a href="https://www.oitc.com.tw/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://www.oitc.com.tw/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-otsuka.jpg')" alt="Otsuka Information Technology Corp." class="h-auto max-h-full"/></a>
-    <a href="https://20mm.org/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://20mm.org/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-20mm.png')" alt="The Michelson 20MM Foundation" class="h-auto max-h-full"/></a>
-    <a href="https://learnful.ca/" class="block h-24 flex justify-center items-center"><img
+    <a href="https://learnful.ca/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-learnful.jpg')" alt="Learnful" class="h-auto max-h-full"/></a>
-    <a href="http://univ-numerique.fr/" class="block h-24 flex justify-center items-center"><img
+    <a href="http://univ-numerique.fr/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-numerique.png')" alt="L'Université Numérique" class="h-auto max-h-full"/></a>
-    <a href="http://www.aunege.org/" class="block h-24 flex justify-center items-center"><img
+    <a href="http://www.aunege.org/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-aunege.png')" alt="AUNEGe" class="h-auto max-h-full"/></a>
   </div>
 
