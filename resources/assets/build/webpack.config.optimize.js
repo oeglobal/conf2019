@@ -11,7 +11,7 @@ const config = require('./config');
 
 class TailwindExtractor {
   static extract(content) {
-    return content.match(/[A-Za-z0-9-_:\/]+/g) || [];
+    return content.match(/[A-Za-z0-9-_:%\/]+/g) || [];
   }
 }
 
@@ -45,6 +45,7 @@ module.exports = {
         'app/**/*.php',
         'resources/views/**/*.php',
         'resources/assets/scripts/**/*.js',
+        'resources/assets/styles/**.scss',
         'node_modules/lightgallery/dist/js/*.js',
         'node_modules/lightgallery/dist/css/*.css',
       ]),
@@ -60,6 +61,7 @@ module.exports = {
         ...whitelister('resources/assets/styles/components/_wp-classes.scss'),
         ...whitelister('resources/assets/styles/components/_live-banner.scss'),
         ...whitelister('resources/assets/styles/components/_icons.scss'),
+        ...whitelister('resources/assets/styles/components/*.scss'),
       ],
     }),
   ],
