@@ -18,6 +18,14 @@
     @endcomponent
 
     @component('components.symbol', [
+    'svg' => 'program',
+    'text' => 'Program',
+    'size' => 'sm',
+    'class' => 'w-32 active',
+    'link' => 'https://connect.oeglobal.org/conference/schedule',
+    ])@endcomponent
+
+    @component('components.symbol', [
       'svg' => 'sponsor',
       'text' => 'Sponsors',
       'size' => 'sm',
