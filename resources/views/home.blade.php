@@ -126,7 +126,7 @@
 
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
-    @php($img_class='block h-48 flex justify-center items-center max-w-70%')
+    @php($img_class='block h-48 flex justify-center items-center max-w-70% max-h-36')
     <a href="https://feedbackfruits.com/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-feedbackfruits.png')" alt="Feedback Fruits" class="h-auto max-h-full"/></a>
     <a href="https://www.grasple.com/" class="{!! $img_class !!}"><img
@@ -153,6 +153,9 @@
         src="@asset('images/logo-numerique.png')" alt="L'Université Numérique" class="h-auto max-h-full"/></a>
     <a href="http://www.aunege.org/" class="{!! $img_class !!}"><img
         src="@asset('images/logo-aunege.png')" alt="AUNEGe" class="h-auto max-h-full"/></a>
+    <a href="https://openstax.org/" class="{!! $img_class !!}"><img
+        src="@asset('images/logo-openstax.png')" alt="OpenStax" class="h-auto max-h-full"/></a>
+
   </div>
 
   {{--
