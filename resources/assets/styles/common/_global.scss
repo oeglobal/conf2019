@@ -98,12 +98,13 @@ p {
 
 footer {
   background-color: theme('colors.red');
-  background-image: url('../images/bg-footer.png');
-  background-repeat: repeat-x;
-  background-size: auto 100%;
 
   @screen md {
-    height: 374px;
+    height: 425px;
+    background-image: url('../images/bg-footer.svg');
+    background-repeat: repeat-x;
+    background-size: auto 255px;
+    background-position: bottom 55px center;
   }
 }
 

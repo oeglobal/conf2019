@@ -17,7 +17,7 @@
         >
           <span class="block md:inline">
             <span class="block md:inline">@svg('icon-calendar', 'inline mr-2 -mt-1')</span>
-            <span class="block md:inline">16-20 November, 2020</span>
+            <span class="block md:inline">September, October, 2021</span>
           </span>
         </div>
       </div>
