@@ -57,10 +57,14 @@ module.exports = {
       'green-darkest': '#0f2f21',
       'green-darker': '#1a4731',
       'green-dark': '#1f9d55',
-      'green': '#38c172',
       'green-light': '#51d88a',
       'green-lighter': '#a2f5bf',
       'green-lightest': '#e3fcec',
+
+      'green': {
+        '': '#38c172',
+        '100': '#DBF5D6',
+      },
 
       'teal-darkest': '#0d3331',
       'teal-darker': '#20504f',
@@ -73,10 +77,14 @@ module.exports = {
       'blue-darkest': '#12283a',
       'blue-darker': '#1c3d5a',
       'blue-dark': '#2779bd',
-      'blue': '#3490dc',
       'blue-light': '#b3e6ff',
       'blue-lighter': '#bcdefa',
       'blue-lightest': '#eff8ff',
+
+      'blue' : {
+        '': '#3490dc',
+        '100': '#D8E7FD'
+      },
 
       'indigo-darkest': '#191e38',
       'indigo-darker': '#2f365f',

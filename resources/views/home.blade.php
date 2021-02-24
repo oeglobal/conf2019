@@ -67,19 +67,43 @@
 
   </div>
 
-  @component('components.panel', [
-    'title' => 'About',
-    'svg' => 'logo',
-    'image_classes' => 'text-center',
-    'svg_classes' => 'max-w-full',
-    'link' => home_url('/welcome/')
-  ])
-    <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
-      universal access, equity, innovation and opportunity in education. The OE Global conference is the most
-      internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
-      policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
-      advances educational practices around the world.</p>
-  @endcomponent
+  <div class="flex flex-wrap -mx-4 overflow-hidden mb-20 md:mb-26">
+    <div class="my-2 p-10 w-1/3 overflow-hidden hidden md:block text-center bg-blue-100 rounded text-center">
+      <img src="@asset('images/badge-online.svg')" alt="Online Conference Badge" class="w-5/6 inline-block"/>
+
+      <div class="font-bold text-2xl mt-4">September 6 - October 1</div>
+    </div>
+
+    <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
+      <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
+        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
+        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
+        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
+        advances educational practices around the world.</p>
+
+      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap -mx-4 overflow-hidden mb-20 md:mb-26">
+    <div class="my-2 p-10 w-1/3 overflow-hidden hidden md:block text-center bg-blue-100 rounded text-center">
+      <img src="@asset('images/badge-inperson.svg')" alt="In-person Conference Badge" class="w-5/6 inline-block"/>
+
+      <div class="font-bold text-2xl mt-4">October 5 - 7</div>
+    </div>
+
+    <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
+      <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
+        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
+        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
+        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
+        advances educational practices around the world.</p>
+
+      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+    </div>
+  </div>
+
+
 
   {{--
   @component('components.panel', [
@@ -110,7 +134,7 @@
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2 home-sponsors">
 
     <a href="https://www.univ-nantes.fr/"><img src="@asset('images/logo-unantes.svg')" alt="Université de Nantes"
-                                          class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
+                                               class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
 
     <a href="https://www.oeglobal.org/"><img src="@asset('images/logo-oeglobal.svg')" alt="Open Education Consortium"
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
