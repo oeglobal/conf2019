@@ -8,6 +8,7 @@
 @section('content')
 
   <div class="justify-around mb-10 hidden md:flex">
+    {{--
     @component('components.symbol', [
       'svg' => 'cfp',
       'text' => 'Keynotes',
@@ -51,6 +52,7 @@
     'link' => 'https://connect.oeglobal.org/c/oeg-2020/15'
     ])
     @endcomponent
+    --}}
 
     {{--
     @component('components.symbol', [
@@ -95,26 +97,26 @@
 
   @include('partials.gallery')
 
+
+  @include('components.panel-heading', ['title' => 'Patronage'])
+  <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
+    @php($img_class='block h-48 flex justify-center items-center max-w-70% max-h-36')
+    <div class=""></div>
+    <a href="https://www.unesco.org/" class="{!! $img_class !!}"><img
+        src="@asset('images/logo-unesco.png')" alt="UNESCO" class="h-auto max-h-full"/></a>
+  </div>
+
   @include('components.panel-heading', ['title' => 'Organized by'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2 home-sponsors">
 
-    <a href="http://eng.tmu.edu.tw/"><img src="@asset('images/logo-tmu.svg')" alt="Taipei Medical University (TMU)"
+    <a href="https://www.univ-nantes.fr/"><img src="@asset('images/logo-unantes.svg')" alt="Université de Nantes"
                                           class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-22"/></a>
 
     <a href="https://www.oeglobal.org/"><img src="@asset('images/logo-oeglobal.svg')" alt="Open Education Consortium"
                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
   </div>
 
-  @include('components.panel-heading', ['title' => 'Co-hosted by'])
-  <div class="flex flex-wrap items-center justify-around pt-8 mb-32 md:w/1-2 home-sponsors">
-
-    <a href="https://www.ecampusontario.ca/"><img src="@asset('images/logo-ecampus.png')" alt="eCampusOntario"
-                                                  class="max-w-full h-16 mb-10 md:mb-0 md:mr-10 md:h-20"/></a>
-
-    <a href="https://www.tudelft.nl/en/"><img src="@asset('images/logo-delft.png')" alt="Delft University of Technology"
-                                              class="max-w-full h-36 mb-10 md:mb-0 md:mr-10"/></a>
-  </div>
-
+  {{--
   @include('components.panel-heading', ['title' => 'Supporters'])
   <div class="flex flex-wrap items-center justify-around pt-8 mb-32 home-sponsors">
     <a href="https://www.tocec.org.tw/"><img src="@asset('images/logo-toec.svg')"
@@ -123,7 +125,9 @@
     <a href="https://copeneduc.org/"><img src="@asset('images/logo-coec.svg')" alt="Chinese Open Education Consortium"
                                           class="h-16 md:h-24"/></a>
   </div>
+  --}}
 
+  {{--
   @include('components.panel-heading', ['title' => 'Sponsors'])
   <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
     @php($img_class='block h-48 flex justify-center items-center max-w-70% max-h-36')
@@ -157,6 +161,7 @@
         src="@asset('images/logo-openstax.png')" alt="OpenStax" class="h-auto max-h-full"/></a>
 
   </div>
+  --}}
 
   {{--
     @include('components.panel-heading', ['title' => 'Collaborators'])
