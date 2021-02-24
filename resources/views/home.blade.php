@@ -68,7 +68,7 @@
   </div>
 
   <div class="flex flex-wrap -mx-4 overflow-hidden mb-20 md:mb-26">
-    <div class="my-2 p-10 w-1/3 overflow-hidden hidden md:block text-center bg-blue-100 rounded text-center">
+    <div class="my-2 p-10 w-full md:w-1/3 overflow-hidden md:block text-center bg-blue-100 rounded text-center">
       <img src="@asset('images/badge-online.svg')" alt="Online Conference Badge" class="w-5/6 inline-block"/>
 
       <div class="font-bold text-2xl mt-4">September 6 - October 1</div>
@@ -86,7 +86,7 @@
   </div>
 
   <div class="flex flex-wrap -mx-4 overflow-hidden mb-20 md:mb-26">
-    <div class="my-2 p-10 w-1/3 overflow-hidden hidden md:block text-center bg-blue-100 rounded text-center">
+    <div class="my-2 p-10 w-full md:w-1/3 overflow-hidden md:block text-center bg-blue-100 rounded text-center">
       <img src="@asset('images/badge-inperson.svg')" alt="In-person Conference Badge" class="w-5/6 inline-block"/>
 
       <div class="font-bold text-2xl mt-4">October 5 - 7</div>
@@ -123,7 +123,7 @@
 
 
   @include('components.panel-heading', ['title' => 'Patronage'])
-  <div class="grid grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
     @php($img_class='block h-48 flex justify-center items-center max-w-70% max-h-36')
     <div class=""></div>
     <a href="https://www.unesco.org/" class="{!! $img_class !!}"><img
