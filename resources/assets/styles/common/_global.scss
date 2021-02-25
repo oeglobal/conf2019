@@ -94,6 +94,12 @@ p {
       @apply border-red border-b;
     }
   }
+
+  ul {
+    display: block;
+    list-style: circle inside;
+    padding-left: 5px;
+  }
 }
 
 footer {
