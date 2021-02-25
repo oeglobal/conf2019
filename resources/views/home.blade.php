@@ -75,13 +75,10 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
-        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
-        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
-        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
-        advances educational practices around the world.</p>
+      <p>The 2021 Open Education Global Conference will kick off on September 6, 2021 with four weeks focused on the
+        following action areas of the UNESCO OER Recommendation: Capacity, Policy, Access, and Sustainability.</p>
 
-      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+      <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
     </div>
   </div>
 
@@ -93,13 +90,11 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The Open Education Global Conference is where the world meets to discuss how opening education helps us achieve
-        universal access, equity, innovation and opportunity in education. The OE Global conference is the most
-        internationally diverse conference devoted exclusively to open education, attracting researchers, practitioners,
-        policy makers, educators and students from more than 35 countries to discuss and explore how Open Education
-        advances educational practices around the world.</p>
+      <p>The 2021 Open Education Global Conference will wrap up at the University of Nantes in France for an In-person
+        Congress. The focus will be, engaging the global open education community in international cooperation to
+        advance UNESCO OER Recommendations.</p>
 
-      <a href="#" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+      <a href="{!! home_url('/in-person-congress/') !!}"Learn more @svg('icon-chevron')</a>
     </div>
   </div>
 
