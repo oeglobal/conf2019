@@ -94,7 +94,7 @@
         Congress. The focus will be, engaging the global open education community in international cooperation to
         advance UNESCO OER Recommendations.</p>
 
-      <a href="{!! home_url('/in-person-congress/') !!}">Learn more @svg('icon-chevron')</a>
+      <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
     </div>
   </div>
 
