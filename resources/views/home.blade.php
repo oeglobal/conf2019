@@ -91,8 +91,8 @@
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
       <p>The 2021 Open Education Global Conference will wrap up at the University of Nantes in France for an In-person
-        Congress. The focus will be, engaging the global open education community in international cooperation to
-        advance UNESCO OER Recommendations.</p>
+        Congress. The focus will be on engaging the global open education community in international cooperation to
+        advance the UNESCO OER Recommendation.</p>
 
       <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
     </div>
