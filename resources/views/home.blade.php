@@ -75,7 +75,7 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The 2021 Open Education Global Conference will kick off on September 27, 2021 with four weeks focused on the
+      <p>The 2021 Open Education Global Conference will kick off on September 27, 2021 and will be focused on the
         following action areas of the UNESCO OER Recommendation: Capacity, Policy, Access, and Sustainability.</p>
 
       <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
