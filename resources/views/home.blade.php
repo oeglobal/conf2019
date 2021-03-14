@@ -67,6 +67,16 @@
 
   </div>
 
+  <div class="flex pt-10 md:pt-0 pb-14 justify-center">
+    <div class="max-w-xl">
+      <p>The annual Open Education Global conference is trying something new in 2021 by focusing the entire conference
+        on the UNESCO OER Recommendation. We think this is the ideal time to engage the global open education community
+        in actions associated with all five action areas of the UNESCO OER Recommendation - Capacity Building, Policy,
+        Access, Sustainability, and International Cooperation. We hope you'll join us in this global community
+        effort!"</p>
+    </div>
+  </div>
+
   <div class="flex flex-wrap -mx-4 overflow-hidden mb-20 md:mb-26">
     <div class="my-2 p-10 w-full md:w-1/3 overflow-hidden md:block text-center bg-blue-100 rounded text-center">
       <img src="@asset('images/badge-online.svg')" alt="Online Conference Badge" class="w-5/6 inline-block"/>
@@ -75,8 +85,9 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The 2021 Open Education Global Conference will kick off on September 27, 2021 and will be focused on the
-        following action areas of the UNESCO OER Recommendation: Capacity, Policy, Access, and Sustainability.</p>
+      <p>The Open Education Global 2021 conference starts with a week long Online Conference taking place over five days
+        from Monday September 27 to Friday October 1. Each day will focus on a different UNESCO OER Recommendation
+        action area.</p>
 
       <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
     </div>
@@ -90,9 +101,7 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The 2021 Open Education Global Conference will wrap up at the University of Nantes in France for an In-person
-        Congress. The focus will be on engaging the global open education community in international cooperation to
-        advance the UNESCO OER Recommendation.</p>
+      <p>The 2021 Open Education Global Conference concludes with a three day in-person Congress 5-7-Oct in Nantes France.</p>
 
       <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
     </div>
@@ -114,8 +123,9 @@
   @endcomponent
   --}}
 
+  {{--
   @include('partials.gallery')
-
+  --}}
 
   @include('components.panel-heading', ['title' => 'Patronage'])
   <div class="grid grid-cols-1 md:grid-cols-3 gap-y-12 items-end justify-around pt-8 mb-32 home-sponsors">
