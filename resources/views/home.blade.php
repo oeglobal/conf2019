@@ -70,10 +70,11 @@
   <div class="flex pt-10 md:pt-0 pb-14 justify-center">
     <div class="max-w-xl">
       <p>The annual Open Education Global conference is trying something new in 2021 by focusing the entire conference
-        on the UNESCO OER Recommendation. We think this is the ideal time to engage the global open education community
-        in actions associated with all five action areas of the UNESCO OER Recommendation - Capacity Building, Policy,
-        Access, Sustainability, and International Cooperation. We hope you'll join us in this global community
-        effort!"</p>
+        on the <a href="http://portal.unesco.org/en/ev.php-URL_ID=49556&URL_DO=DO_TOPIC&URL_SECTION=201.html">UNESCO OER
+          Recommendation</a>. We aim to engage the global open education community in actions associated
+        with all five action areas of the UNESCO OER Recommendation - Capacity Building, Policy, Access, Sustainability,
+        and International Cooperation. We hope you'll join us in this global community effort!
+      </p>
     </div>
   </div>
 
@@ -89,7 +90,7 @@
         from Monday September 27 to Friday October 1. Each day will focus on a different UNESCO OER Recommendation
         action area.</p>
 
-      <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+      <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn More about the Online Conference @svg('icon-chevron')</a>
     </div>
   </div>
 
@@ -101,9 +102,10 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The 2021 Open Education Global Conference concludes with a three day in-person Congress 5-7-Oct in Nantes France.</p>
+      <p>The 2021 Open Education Global Conference concludes with a three day in-person Congress 5-7-Oct in Nantes
+        France.</p>
 
-      <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn more @svg('icon-chevron')</a>
+      <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn More about the In-person Congress @svg('icon-chevron')</a>
     </div>
   </div>
 
