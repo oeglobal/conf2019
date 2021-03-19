@@ -86,11 +86,13 @@
     </div>
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
-      <p>The Open Education Global 2021 conference starts with a week long Online Conference taking place over five days
-        from Monday September 27 to Friday October 1. Each day will focus on a different UNESCO OER Recommendation
-        action area.</p>
+      <p>The Open Education Global 2021 conference starts with an Online Conference taking place over five days from
+        Monday September 27 to Friday October 1. Each day will focus on a different UNESCO OER Recommendation action
+        area. Through webinars and interactive sessions, participants will contribute ideas to help with the
+        implementation of the Recommendation.</p>
 
-      <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn More about the Online Conference @svg('icon-chevron')</a>
+      <a href="{!! home_url('/online-conference/') !!}" class="btn-inverse">Learn More about the Online Conference
+        @svg('icon-chevron')</a>
     </div>
   </div>
 
@@ -103,9 +105,13 @@
 
     <div class="my-2 px-4 md:w-7/12 overflow-hidden panel flex flex-col justify-center">
       <p>The 2021 Open Education Global Conference concludes with a three day in-person Congress 5-7-Oct in Nantes
-        France.</p>
+        France. Specialized and thematic sessions, side events comprising stakeholders from different projects or
+        initiatives, learning labs and more will take place over the three days. Rapporteurs will give reports on
+        outputs from the online conference which will serve as inputs to the Congress providing a starting point to
+        discussions from which practical recommendations will be proposed and adopted.</p>
 
-      <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn More about the In-person Congress @svg('icon-chevron')</a>
+      <a href="{!! home_url('/in-person-congress/') !!}" class="btn-inverse">Learn More about the In-person Congress
+        @svg('icon-chevron')</a>
     </div>
   </div>
 
